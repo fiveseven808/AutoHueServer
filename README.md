@@ -4,18 +4,18 @@ Automatic Philips Hue Server
 Summary: Schedule your Hue lights with Wifi-based Geofencing! Uses your phone's IP to determine if you're home! 
 
 Bonus: 
-	Whole House "Scene" Creator
-	Run according to a schedule or Toggle a light (or group of lights) with an Amazon Dash Button!
+	* Whole House "Scene" Creator
+	* Run according to a schedule or Toggle a light (or group of lights) with an Amazon Dash Button!
 
 
 Instructions as of 6/23/16
 	Requirements:
-		Install WinHue 3 BETA 15 or greater
-		Install AutoHotKey (to run or compile the AHK files)
+		* Install WinHue 3 BETA 15 or greater
+		* Install AutoHotKey (to run or compile the AHK files)
 	Instructions:
-		Modify WHClocation in the ini file to your WinHue location 
-		Open Hue Wifi Home Scan v1.9_scheduler.ahk to understand syntax
-		Modify Wifi_Return_sch.ahk to suit your needs (get light and light specs with WinHue's WHC.exe) 
+		1. Modify WHClocation in the ini file to your WinHue location 
+		2. Open Hue Wifi Home Scan v1.9_scheduler.ahk to understand syntax
+		3. Modify Wifi_Return_sch.ahk to suit your needs (get light and light specs with WinHue's WHC.exe) 
 
 First up
 6/23/16
