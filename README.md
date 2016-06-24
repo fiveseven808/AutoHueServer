@@ -1,6 +1,13 @@
 # AutoHueServer
 Automatic Philips Hue Server
 
+Summary: Schedule your Hue lights with Wifi-based Geofencing! Uses your phone's IP to determine if you're home! 
+
+Bonus: 
+	Whole House "Scene" Creator
+	Run according to a schedule or Toggle a light (or group of lights) with an Amazon Dash Button!
+
+
 Instructions as of 6/23/16
 	Requirements:
 		Install WinHue 3 BETA 15 or greater
@@ -18,3 +25,9 @@ First up
 	I might have to rewrite eveything.... probably gotta clean things up...
 	Goals for the upcoming build:
 		 
+		 
+		 
+Wishlist:
+	Proper animation handling (and creation?!, depends if WinHue will beat me to it) 
+	Proper GUI based scheduling (instead of modifying an AHK)
+	
