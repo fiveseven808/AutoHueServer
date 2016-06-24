@@ -1,7 +1,7 @@
 # AutoHueServer
 Automatic Philips Hue Server
 
-Summary: Schedule your Hue lights with Wifi-based Geofencing! Uses your phone's IP to determine if you're home! 
+Summary: Schedule your Philips Hue lights with Wifi-based Geofencing! Uses your phone's IP to determine if you're home! 
 
 Bonus: 
 	* Whole House "Scene" Creator
