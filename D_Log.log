@@ -111,3 +111,4 @@ Turning on house lights according to schedule!
 20160623165950 Phone at 192.168.1.197 Not seen
 20160623170507 home_L_WIFI_state = 1 bothcompsoff = 1
 20160623170507 Phone at 192.168.1.197 Not seen
+20160623211328 else ftime > sunset
