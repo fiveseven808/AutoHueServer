@@ -1,0 +1,355 @@
+------------------------------------------------------------------------------------------
+20160616102608 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160616102622 home_L_WIFI_state = 1 bothcompsoff = 1
+20160616102622 Phone at 192.168.1.109 Not seen
+20160616102636 home_L_WIFI_state = 1 bothcompsoff = 2
+20160616102636 Phone at 192.168.1.197 Not seen
+20160616102647 home_L_WIFI_state = 1 bothcompsoff = 3
+20160616102647 Phone at 192.168.1.109 Not seen
+20160616102657 home_L_WIFI_state = 1 bothcompsoff = 4
+20160616102657 Phone at 192.168.1.197 Not seen
+20160616102657 No phones detected. Turning off all house lights
+20160616160144 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160616164010 home_L_WIFI_state = 1 bothcompsoff = 1
+20160616164010 Phone at 192.168.1.109 Not seen
+20160616164024 home_L_WIFI_state = 1 bothcompsoff = 2
+20160616164024 Phone at 192.168.1.197 Not seen
+20160616164038 home_L_WIFI_state = 1 bothcompsoff = 3
+20160616164038 Phone at 192.168.1.109 Not seen
+20160616164052 home_L_WIFI_state = 1 bothcompsoff = 4
+20160616164052 Phone at 192.168.1.197 Not seen
+20160616164052 No phones detected. Turning off all house lights
+20160616165114 ftime < 1830 && ftime > 1200 
+20160616165114 else 
+20160616165522 ftime < 1830 && ftime > 1200 
+------------------------------------------------------------------------------------------
+20160616170637 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160616170651 home_L_WIFI_state = 1 bothcompsoff = 1
+20160616170651 Phone at 192.168.1.109 Not seen
+20160616170705 home_L_WIFI_state = 1 bothcompsoff = 2
+20160616170705 Phone at 192.168.1.197 Not seen
+20160616170716 home_L_WIFI_state = 1 bothcompsoff = 3
+20160616170716 Phone at 192.168.1.109 Not seen
+20160616170726 home_L_WIFI_state = 1 bothcompsoff = 4
+20160616170726 Phone at 192.168.1.197 Not seen
+20160616170726 No phones detected. Turning off all house lights
+20160616170921 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160616170923 ftime < 1830 && ftime > 1200 
+20160616185528 home_L_WIFI_state = 1 bothcompsoff = 1
+20160616185528 Phone at 192.168.1.109 Not seen
+20160616191631 On button Pressed!
+20160616192123 On button Pressed!
+20160616192234 On button Pressed!
+20160616192608 On button Pressed!
+20160616192608 sunset 2230
+20160616204140 home_L_WIFI_state = 1 bothcompsoff = 1
+20160616204140 Phone at 192.168.1.197 Not seen
+20160616231826 home_L_WIFI_state = 1 bothcompsoff = 1
+20160616231826 Phone at 192.168.1.109 Not seen
+20160617073752 home_L_WIFI_state = 1 bothcompsoff = 1
+20160617073752 Phone at 192.168.1.197 Not seen
+20160617073807 home_L_WIFI_state = 1 bothcompsoff = 2
+20160617073807 Phone at 192.168.1.109 Not seen
+20160617073817 home_L_WIFI_state = 1 bothcompsoff = 3
+20160617073817 Phone at 192.168.1.197 Not seen
+20160617073828 home_L_WIFI_state = 1 bothcompsoff = 4
+20160617073828 Phone at 192.168.1.109 Not seen
+20160617073842 home_L_WIFI_state = 1 bothcompsoff = 5
+20160617073842 Phone at 192.168.1.197 Not seen
+20160617073853 home_L_WIFI_state = 1 bothcompsoff = 6
+20160617073853 Phone at 192.168.1.109 Not seen
+20160617073907 home_L_WIFI_state = 1 bothcompsoff = 7
+20160617073907 Phone at 192.168.1.197 Not seen
+20160617073919 home_L_WIFI_state = 1 bothcompsoff = 8
+20160617073919 Phone at 192.168.1.109 Not seen
+20160617073929 home_L_WIFI_state = 1 bothcompsoff = 9
+20160617073929 Phone at 192.168.1.197 Not seen
+20160617073943 home_L_WIFI_state = 1 bothcompsoff = 10
+20160617073943 Phone at 192.168.1.109 Not seen
+20160617073954 home_L_WIFI_state = 1 bothcompsoff = 11
+20160617073954 Phone at 192.168.1.197 Not seen
+20160617074004 home_L_WIFI_state = 1 bothcompsoff = 12
+20160617074004 Phone at 192.168.1.109 Not seen
+20160617074019 home_L_WIFI_state = 1 bothcompsoff = 13
+20160617074019 Phone at 192.168.1.197 Not seen
+20160617074030 home_L_WIFI_state = 1 bothcompsoff = 14
+20160617074030 Phone at 192.168.1.109 Not seen
+20160617074044 home_L_WIFI_state = 1 bothcompsoff = 15
+20160617074044 Phone at 192.168.1.197 Not seen
+20160617074058 home_L_WIFI_state = 1 bothcompsoff = 16
+20160617074058 Phone at 192.168.1.109 Not seen
+20160617074109 home_L_WIFI_state = 1 bothcompsoff = 17
+20160617074109 Phone at 192.168.1.197 Not seen
+20160617074119 home_L_WIFI_state = 1 bothcompsoff = 18
+20160617074119 Phone at 192.168.1.109 Not seen
+20160617074131 home_L_WIFI_state = 1 bothcompsoff = 19
+20160617074131 Phone at 192.168.1.197 Not seen
+20160617074145 home_L_WIFI_state = 1 bothcompsoff = 20
+20160617074145 Phone at 192.168.1.109 Not seen
+20160617074159 home_L_WIFI_state = 1 bothcompsoff = 21
+20160617074159 Phone at 192.168.1.197 Not seen
+20160617074213 home_L_WIFI_state = 1 bothcompsoff = 22
+20160617074213 Phone at 192.168.1.109 Not seen
+20160617074224 home_L_WIFI_state = 1 bothcompsoff = 23
+20160617074224 Phone at 192.168.1.197 Not seen
+20160617074234 home_L_WIFI_state = 1 bothcompsoff = 24
+20160617074234 Phone at 192.168.1.109 Not seen
+20160617074245 home_L_WIFI_state = 1 bothcompsoff = 25
+20160617074245 Phone at 192.168.1.197 Not seen
+20160617074259 home_L_WIFI_state = 1 bothcompsoff = 26
+20160617074259 Phone at 192.168.1.109 Not seen
+20160617074313 home_L_WIFI_state = 1 bothcompsoff = 27
+20160617074313 Phone at 192.168.1.197 Not seen
+20160617074327 home_L_WIFI_state = 1 bothcompsoff = 28
+20160617074327 Phone at 192.168.1.109 Not seen
+20160617074338 home_L_WIFI_state = 1 bothcompsoff = 29
+20160617074338 Phone at 192.168.1.197 Not seen
+20160617074348 home_L_WIFI_state = 1 bothcompsoff = 30
+20160617074348 Phone at 192.168.1.109 Not seen
+20160617074359 home_L_WIFI_state = 1 bothcompsoff = 31
+20160617074359 Phone at 192.168.1.197 Not seen
+20160617074414 home_L_WIFI_state = 1 bothcompsoff = 32
+20160617074414 Phone at 192.168.1.109 Not seen
+20160617074428 home_L_WIFI_state = 1 bothcompsoff = 33
+20160617074428 Phone at 192.168.1.197 Not seen
+20160617074442 home_L_WIFI_state = 1 bothcompsoff = 34
+20160617074442 Phone at 192.168.1.109 Not seen
+20160617074453 home_L_WIFI_state = 1 bothcompsoff = 35
+20160617074453 Phone at 192.168.1.197 Not seen
+20160617074503 home_L_WIFI_state = 1 bothcompsoff = 36
+20160617074503 Phone at 192.168.1.109 Not seen
+20160617074514 home_L_WIFI_state = 1 bothcompsoff = 37
+20160617074514 Phone at 192.168.1.197 Not seen
+20160617074528 home_L_WIFI_state = 1 bothcompsoff = 38
+20160617074528 Phone at 192.168.1.109 Not seen
+20160617074542 home_L_WIFI_state = 1 bothcompsoff = 39
+20160617074542 Phone at 192.168.1.197 Not seen
+20160617074556 home_L_WIFI_state = 1 bothcompsoff = 40
+20160617074556 Phone at 192.168.1.109 Not seen
+20160617074607 home_L_WIFI_state = 1 bothcompsoff = 41
+20160617074607 Phone at 192.168.1.197 Not seen
+20160617074617 home_L_WIFI_state = 1 bothcompsoff = 42
+20160617074617 Phone at 192.168.1.109 Not seen
+20160617074628 home_L_WIFI_state = 1 bothcompsoff = 43
+20160617074628 Phone at 192.168.1.197 Not seen
+20160617074643 home_L_WIFI_state = 1 bothcompsoff = 44
+20160617074643 Phone at 192.168.1.109 Not seen
+20160617074657 home_L_WIFI_state = 1 bothcompsoff = 45
+20160617074657 Phone at 192.168.1.197 Not seen
+20160617074711 home_L_WIFI_state = 1 bothcompsoff = 46
+20160617074711 Phone at 192.168.1.109 Not seen
+20160617074722 home_L_WIFI_state = 1 bothcompsoff = 47
+20160617074722 Phone at 192.168.1.197 Not seen
+20160617074732 home_L_WIFI_state = 1 bothcompsoff = 48
+20160617074732 Phone at 192.168.1.109 Not seen
+20160617074743 home_L_WIFI_state = 1 bothcompsoff = 49
+20160617074743 Phone at 192.168.1.197 Not seen
+20160617074757 home_L_WIFI_state = 1 bothcompsoff = 50
+20160617074757 Phone at 192.168.1.109 Not seen
+20160617074811 home_L_WIFI_state = 1 bothcompsoff = 51
+20160617074811 Phone at 192.168.1.197 Not seen
+20160617074825 home_L_WIFI_state = 1 bothcompsoff = 52
+20160617074825 Phone at 192.168.1.109 Not seen
+20160617074836 home_L_WIFI_state = 1 bothcompsoff = 53
+20160617074836 Phone at 192.168.1.197 Not seen
+20160617074846 home_L_WIFI_state = 1 bothcompsoff = 54
+20160617074846 Phone at 192.168.1.109 Not seen
+20160617074858 home_L_WIFI_state = 1 bothcompsoff = 55
+20160617074858 Phone at 192.168.1.197 Not seen
+20160617074912 home_L_WIFI_state = 1 bothcompsoff = 56
+20160617074912 Phone at 192.168.1.109 Not seen
+20160617074926 home_L_WIFI_state = 1 bothcompsoff = 57
+20160617074926 Phone at 192.168.1.197 Not seen
+20160617074940 home_L_WIFI_state = 1 bothcompsoff = 58
+20160617074940 Phone at 192.168.1.109 Not seen
+20160617074951 home_L_WIFI_state = 1 bothcompsoff = 59
+20160617074951 Phone at 192.168.1.197 Not seen
+20160617075001 home_L_WIFI_state = 1 bothcompsoff = 60
+20160617075001 Phone at 192.168.1.109 Not seen
+20160617075012 home_L_WIFI_state = 1 bothcompsoff = 61
+20160617075012 Phone at 192.168.1.197 Not seen
+20160617075026 home_L_WIFI_state = 1 bothcompsoff = 62
+20160617075026 Phone at 192.168.1.109 Not seen
+20160617075040 home_L_WIFI_state = 1 bothcompsoff = 63
+20160617075040 Phone at 192.168.1.197 Not seen
+20160617075054 home_L_WIFI_state = 1 bothcompsoff = 64
+20160617075054 Phone at 192.168.1.109 Not seen
+20160617075105 home_L_WIFI_state = 1 bothcompsoff = 65
+20160617075105 Phone at 192.168.1.197 Not seen
+20160617075115 home_L_WIFI_state = 1 bothcompsoff = 66
+20160617075115 Phone at 192.168.1.109 Not seen
+20160617075126 home_L_WIFI_state = 1 bothcompsoff = 67
+20160617075126 Phone at 192.168.1.197 Not seen
+20160617075141 home_L_WIFI_state = 1 bothcompsoff = 68
+20160617075141 Phone at 192.168.1.109 Not seen
+20160617075155 home_L_WIFI_state = 1 bothcompsoff = 69
+20160617075155 Phone at 192.168.1.197 Not seen
+20160617075209 home_L_WIFI_state = 1 bothcompsoff = 70
+20160617075209 Phone at 192.168.1.109 Not seen
+20160617075220 home_L_WIFI_state = 1 bothcompsoff = 71
+20160617075220 Phone at 192.168.1.197 Not seen
+20160617075230 home_L_WIFI_state = 1 bothcompsoff = 72
+20160617075230 Phone at 192.168.1.109 Not seen
+20160617075241 home_L_WIFI_state = 1 bothcompsoff = 73
+20160617075241 Phone at 192.168.1.197 Not seen
+20160617075255 home_L_WIFI_state = 1 bothcompsoff = 74
+20160617075255 Phone at 192.168.1.109 Not seen
+20160617075309 home_L_WIFI_state = 1 bothcompsoff = 75
+20160617075309 Phone at 192.168.1.197 Not seen
+20160617075323 home_L_WIFI_state = 1 bothcompsoff = 76
+20160617075323 Phone at 192.168.1.109 Not seen
+20160617075334 home_L_WIFI_state = 1 bothcompsoff = 77
+20160617075334 Phone at 192.168.1.197 Not seen
+20160617075348 home_L_WIFI_state = 1 bothcompsoff = 78
+20160617075348 Phone at 192.168.1.109 Not seen
+20160617075359 home_L_WIFI_state = 1 bothcompsoff = 79
+20160617075359 Phone at 192.168.1.197 Not seen
+20160617075409 home_L_WIFI_state = 1 bothcompsoff = 80
+20160617075409 Phone at 192.168.1.109 Not seen
+20160617075423 home_L_WIFI_state = 1 bothcompsoff = 81
+20160617075423 Phone at 192.168.1.197 Not seen
+20160617075437 home_L_WIFI_state = 1 bothcompsoff = 82
+20160617075437 Phone at 192.168.1.109 Not seen
+20160617075451 home_L_WIFI_state = 1 bothcompsoff = 83
+20160617075451 Phone at 192.168.1.197 Not seen
+20160617075502 home_L_WIFI_state = 1 bothcompsoff = 84
+20160617075502 Phone at 192.168.1.109 Not seen
+20160617075512 home_L_WIFI_state = 1 bothcompsoff = 85
+20160617075512 Phone at 192.168.1.197 Not seen
+20160617075523 home_L_WIFI_state = 1 bothcompsoff = 86
+20160617075524 Phone at 192.168.1.109 Not seen
+20160617075538 home_L_WIFI_state = 1 bothcompsoff = 87
+20160617075538 Phone at 192.168.1.197 Not seen
+20160617075552 home_L_WIFI_state = 1 bothcompsoff = 88
+20160617075552 Phone at 192.168.1.109 Not seen
+20160617075606 home_L_WIFI_state = 1 bothcompsoff = 89
+20160617075606 Phone at 192.168.1.197 Not seen
+20160617075617 home_L_WIFI_state = 1 bothcompsoff = 90
+20160617075617 Phone at 192.168.1.109 Not seen
+20160617075627 home_L_WIFI_state = 1 bothcompsoff = 91
+20160617075627 Phone at 192.168.1.197 Not seen
+20160617075638 home_L_WIFI_state = 1 bothcompsoff = 92
+20160617075638 Phone at 192.168.1.109 Not seen
+20160617075652 home_L_WIFI_state = 1 bothcompsoff = 93
+20160617075652 Phone at 192.168.1.197 Not seen
+20160617075706 home_L_WIFI_state = 1 bothcompsoff = 94
+20160617075706 Phone at 192.168.1.109 Not seen
+20160617075720 home_L_WIFI_state = 1 bothcompsoff = 95
+20160617075720 Phone at 192.168.1.197 Not seen
+20160617075731 home_L_WIFI_state = 1 bothcompsoff = 96
+20160617075731 Phone at 192.168.1.109 Not seen
+20160617075741 home_L_WIFI_state = 1 bothcompsoff = 97
+20160617075741 Phone at 192.168.1.197 Not seen
+20160617075753 home_L_WIFI_state = 1 bothcompsoff = 98
+20160617075753 Phone at 192.168.1.109 Not seen
+20160617075807 home_L_WIFI_state = 1 bothcompsoff = 99
+20160617075807 Phone at 192.168.1.197 Not seen
+20160617075821 home_L_WIFI_state = 1 bothcompsoff = 100
+20160617075821 Phone at 192.168.1.109 Not seen
+20160617075835 home_L_WIFI_state = 1 bothcompsoff = 101
+20160617075835 Phone at 192.168.1.197 Not seen
+20160617075846 home_L_WIFI_state = 1 bothcompsoff = 102
+20160617075846 Phone at 192.168.1.109 Not seen
+20160617075856 home_L_WIFI_state = 1 bothcompsoff = 103
+20160617075856 Phone at 192.168.1.197 Not seen
+20160617075907 home_L_WIFI_state = 1 bothcompsoff = 104
+20160617075907 Phone at 192.168.1.109 Not seen
+20160617075921 home_L_WIFI_state = 1 bothcompsoff = 105
+20160617075921 Phone at 192.168.1.197 Not seen
+20160617075935 home_L_WIFI_state = 1 bothcompsoff = 106
+20160617075935 Phone at 192.168.1.109 Not seen
+20160617075949 home_L_WIFI_state = 1 bothcompsoff = 107
+20160617075949 Phone at 192.168.1.197 Not seen
+20160617080000 home_L_WIFI_state = 1 bothcompsoff = 108
+20160617080000 Phone at 192.168.1.109 Not seen
+20160617080010 home_L_WIFI_state = 1 bothcompsoff = 109
+20160617080010 Phone at 192.168.1.197 Not seen
+20160617080021 home_L_WIFI_state = 1 bothcompsoff = 110
+20160617080021 Phone at 192.168.1.109 Not seen
+20160617080036 home_L_WIFI_state = 1 bothcompsoff = 111
+20160617080036 Phone at 192.168.1.197 Not seen
+20160617080050 home_L_WIFI_state = 1 bothcompsoff = 112
+20160617080050 Phone at 192.168.1.109 Not seen
+20160617080104 home_L_WIFI_state = 1 bothcompsoff = 113
+20160617080104 Phone at 192.168.1.197 Not seen
+20160617080115 home_L_WIFI_state = 1 bothcompsoff = 114
+20160617080115 Phone at 192.168.1.109 Not seen
+20160617080125 home_L_WIFI_state = 1 bothcompsoff = 115
+20160617080125 Phone at 192.168.1.197 Not seen
+20160617080136 home_L_WIFI_state = 1 bothcompsoff = 116
+20160617080136 Phone at 192.168.1.109 Not seen
+20160617080150 home_L_WIFI_state = 1 bothcompsoff = 117
+20160617080150 Phone at 192.168.1.197 Not seen
+20160617080204 home_L_WIFI_state = 1 bothcompsoff = 118
+20160617080204 Phone at 192.168.1.109 Not seen
+20160617080218 home_L_WIFI_state = 1 bothcompsoff = 119
+20160617080218 Phone at 192.168.1.197 Not seen
+20160617080229 home_L_WIFI_state = 1 bothcompsoff = 120
+20160617080229 Phone at 192.168.1.109 Not seen
+20160617080239 home_L_WIFI_state = 1 bothcompsoff = 121
+20160617080239 Phone at 192.168.1.197 Not seen
+20160617080251 home_L_WIFI_state = 1 bothcompsoff = 122
+20160617080251 Phone at 192.168.1.109 Not seen
+20160617080305 home_L_WIFI_state = 1 bothcompsoff = 123
+20160617080305 Phone at 192.168.1.197 Not seen
+20160617080319 home_L_WIFI_state = 1 bothcompsoff = 124
+20160617080319 Phone at 192.168.1.109 Not seen
+20160617080333 home_L_WIFI_state = 1 bothcompsoff = 125
+20160617080333 Phone at 192.168.1.197 Not seen
+20160617080344 home_L_WIFI_state = 1 bothcompsoff = 126
+20160617080344 Phone at 192.168.1.109 Not seen
+20160617080354 home_L_WIFI_state = 1 bothcompsoff = 127
+20160617080354 Phone at 192.168.1.197 Not seen
+20160617080405 home_L_WIFI_state = 1 bothcompsoff = 128
+20160617080419 home_L_WIFI_state = 1 bothcompsoff = 129
+20160617080419 Phone at 192.168.1.197 Not seen
+20160617080433 home_L_WIFI_state = 1 bothcompsoff = 130
+20160617080433 Phone at 192.168.1.109 Not seen
+20160617080448 home_L_WIFI_state = 1 bothcompsoff = 131
+20160617080448 Phone at 192.168.1.197 Not seen
+20160617080458 home_L_WIFI_state = 1 bothcompsoff = 132
+20160617080458 Phone at 192.168.1.109 Not seen
+20160617080508 home_L_WIFI_state = 1 bothcompsoff = 133
+20160617080508 Phone at 192.168.1.197 Not seen
+20160617080519 home_L_WIFI_state = 1 bothcompsoff = 134
+20160617080520 Phone at 192.168.1.109 Not seen
+20160617080534 home_L_WIFI_state = 1 bothcompsoff = 135
+20160617080534 Phone at 192.168.1.197 Not seen
+20160617080548 home_L_WIFI_state = 1 bothcompsoff = 136
+20160617080548 Phone at 192.168.1.109 Not seen
+20160617080602 home_L_WIFI_state = 1 bothcompsoff = 137
+20160617080602 Phone at 192.168.1.197 Not seen
+20160617080613 home_L_WIFI_state = 1 bothcompsoff = 138
+20160617080613 Phone at 192.168.1.109 Not seen
+20160617080627 home_L_WIFI_state = 1 bothcompsoff = 139
+20160617080627 Phone at 192.168.1.197 Not seen
+20160617080638 home_L_WIFI_state = 1 bothcompsoff = 140
+20160617080638 Phone at 192.168.1.109 Not seen
+20160617080648 home_L_WIFI_state = 1 bothcompsoff = 141
+20160617080648 Phone at 192.168.1.197 Not seen
+20160617080702 home_L_WIFI_state = 1 bothcompsoff = 142
+20160617080702 Phone at 192.168.1.109 Not seen
+20160617080716 home_L_WIFI_state = 1 bothcompsoff = 143
+20160617080716 Phone at 192.168.1.197 Not seen
+20160617080730 home_L_WIFI_state = 1 bothcompsoff = 144
+20160617080730 Phone at 192.168.1.109 Not seen
+20160617080741 home_L_WIFI_state = 1 bothcompsoff = 145
+20160617080741 Phone at 192.168.1.197 Not seen
+20160617080751 home_L_WIFI_state = 1 bothcompsoff = 146
+20160617080751 Phone at 192.168.1.109 Not seen
+20160617080802 home_L_WIFI_state = 1 bothcompsoff = 147
+20160617080802 Phone at 192.168.1.197 Not seen
+20160617080817 home_L_WIFI_state = 1 bothcompsoff = 148
+20160617080817 Phone at 192.168.1.109 Not seen
+20160617080831 home_L_WIFI_state = 1 bothcompsoff = 149
+20160617080831 Phone at 192.168.1.197 Not seen
+20160617080845 home_L_WIFI_state = 1 bothcompsoff = 150
+20160617080845 Phone at 192.168.1.109 Not seen
+20160617080856 home_L_WIFI_state = 1 bothcompsoff = 151
+20160617080856 Phone at 192.168.1.197 Not seen
+20160617080906 home_L_WIFI_state = 1 bothcompsoff = 152
+20160617080906 Phone at 192.168.1.109 Not seen

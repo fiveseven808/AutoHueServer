@@ -1,0 +1,562 @@
+------------------------------------------------------------------------------------------
+20160617113223 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160617113237 home_L_WIFI_state = 1 bothcompsoff = 1
+20160617113237 Phone at 192.168.1.109 Not seen
+20160617113251 home_L_WIFI_state = 1 bothcompsoff = 2
+20160617113251 Phone at 192.168.1.197 Not seen
+20160617113302 home_L_WIFI_state = 1 bothcompsoff = 3
+20160617113302 Phone at 192.168.1.109 Not seen
+20160617113312 home_L_WIFI_state = 1 bothcompsoff = 4
+20160617113312 Phone at 192.168.1.197 Not seen
+20160617113312 No phones detected. Turning off all house lights, set lstate to 0
+20160617113314 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617113505 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617113656 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617113847 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617114038 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617114233 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617114428 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617114619 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617114810 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617115010 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160617115012 ftime <= 1200 && ftime > 600 
+20160617115542 home_L_WIFI_state = 1 bothcompsoff = 1
+20160617115542 Phone at 192.168.1.197 Not seen
+20160617115556 home_L_WIFI_state = 1 bothcompsoff = 2
+20160617115556 Phone at 192.168.1.109 Not seen
+20160617115607 home_L_WIFI_state = 1 bothcompsoff = 3
+20160617115607 Phone at 192.168.1.197 Not seen
+20160617115617 home_L_WIFI_state = 1 bothcompsoff = 4
+20160617115617 Phone at 192.168.1.109 Not seen
+20160617115629 home_L_WIFI_state = 1 bothcompsoff = 5
+20160617115629 Phone at 192.168.1.197 Not seen
+20160617115629 No phones detected. Turning off all house lights, set lstate to 0
+20160617115631 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617115822 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617120012 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617120204 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617120354 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617120546 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617120736 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617120927 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617121118 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617121309 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617121501 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617121652 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617121843 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617121940 ftime < 1830 && ftime > 1200 
+20160617122033 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617122224 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617122415 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617122606 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617122757 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617122948 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617123139 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617123330 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617123521 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617123712 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617123903 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617124054 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617124246 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617124436 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617124627 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617124818 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617125010 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617125201 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617125351 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617125542 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617125733 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617125924 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617130115 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617130306 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617130457 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617130648 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617130838 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617131029 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617131220 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617131410 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617131605 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617131756 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617131946 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617132137 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617132331 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617132522 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617132712 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617132903 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617133053 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617133244 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617133434 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617133624 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617133815 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617134006 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617134156 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617134346 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617134537 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617134727 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617134919 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617135111 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617135301 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617135451 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617135642 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617135837 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617140031 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617140221 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617140412 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617140602 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617140753 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617140943 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617141134 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617141324 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617141515 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617141709 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617141904 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617142058 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617142249 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617142439 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617142630 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617142821 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617143011 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617143201 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617143352 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617143543 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617143733 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617143923 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617144114 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617144304 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617144455 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617144645 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617144836 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617145026 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617145217 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617145407 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617145558 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617145752 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617145943 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617150134 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617150324 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617150514 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617150705 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617150855 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617151046 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617151236 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617151427 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617151618 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617151808 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617151958 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617152148 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617152339 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617152529 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617152720 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617152910 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617153101 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617153251 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617153442 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617153632 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617153827 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617154017 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617154208 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617154358 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617154553 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617154743 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617154934 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617155037 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160617155040 ftime < 1830 && ftime > 1200 
+20160617170649 home_L_WIFI_state = 1 bothcompsoff = 1
+20160617170649 Phone at 192.168.1.109 Not seen
+20160617170703 home_L_WIFI_state = 1 bothcompsoff = 2
+20160617170703 Phone at 192.168.1.197 Not seen
+20160617170717 home_L_WIFI_state = 1 bothcompsoff = 3
+20160617170717 Phone at 192.168.1.109 Not seen
+20160617170728 home_L_WIFI_state = 1 bothcompsoff = 4
+20160617170728 Phone at 192.168.1.197 Not seen
+20160617170728 No phones detected. Turning off all house lights, set lstate to 0
+20160617170730 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617170920 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617171111 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617171305 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617171457 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617171648 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617171838 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617172029 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617172219 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617172410 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617172601 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617172731 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160617172734 ftime < 1830 && ftime > 1200 
+20160617235555 home_L_WIFI_state = 1 bothcompsoff = 1
+20160617235555 Phone at 192.168.1.109 Not seen
+20160617235609 home_L_WIFI_state = 1 bothcompsoff = 2
+20160617235609 Phone at 192.168.1.197 Not seen
+20160617235623 home_L_WIFI_state = 1 bothcompsoff = 3
+20160617235623 Phone at 192.168.1.109 Not seen
+20160617235637 home_L_WIFI_state = 1 bothcompsoff = 4
+20160617235637 Phone at 192.168.1.197 Not seen
+20160617235637 No phones detected. Turning off all house lights, set lstate to 0
+20160617235640 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160617235742 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160617235745 else ftime > sunset
+20160618133502 home_L_WIFI_state = 1 bothcompsoff = 1
+20160618133502 Phone at 192.168.1.109 Not seen
+20160618133515 home_L_WIFI_state = 1 bothcompsoff = 2
+20160618133515 Phone at 192.168.1.197 Not seen
+20160618133529 home_L_WIFI_state = 1 bothcompsoff = 3
+20160618133529 Phone at 192.168.1.109 Not seen
+20160618133543 home_L_WIFI_state = 1 bothcompsoff = 4
+20160618133543 Phone at 192.168.1.197 Not seen
+20160618133543 No phones detected. Turning off all house lights, set lstate to 0
+20160618133545 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618133738 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618133933 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618134127 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618134318 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618134508 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618134703 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618134858 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618135053 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618135248 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618135438 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618135629 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618135819 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618140010 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618140200 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618140351 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618140541 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618140736 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618140931 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618141121 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618141312 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618141502 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618141653 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618141843 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618142034 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618142224 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618142415 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618142605 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618142756 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618142946 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618143141 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618143336 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618143526 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618143717 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618143907 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618144058 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618144248 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618144439 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618144629 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618144820 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618145011 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618145201 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618145352 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618145543 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618145733 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618145924 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618150114 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618150305 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618150455 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618150646 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618150837 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618151027 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618151217 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618151408 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618151559 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618151749 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618151940 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618152130 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618152320 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618152511 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618152702 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618152857 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618153047 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618153238 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618153428 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618153619 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618153809 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618153959 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618154150 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618154341 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618154531 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618154721 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618154912 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618155103 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618155254 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618155444 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618155635 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618155825 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618160019 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618160210 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618160401 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618160551 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618160742 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618160932 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618161123 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618161314 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618161504 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618161655 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618161845 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618162035 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618162226 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618162416 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618162607 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618162758 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618162948 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618163138 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618163329 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618163519 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618163711 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618163901 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618164052 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618164242 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618164433 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618164623 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618164814 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618165004 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618165155 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618165345 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618165536 broke out of loop,  shut off the lights and now sleeping for 1 min  
+20160618165717 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160618165720 ftime < 1830 && ftime > 1200 
+20160618231540 home_L_WIFI_state = 1 bothcompsoff = 1
+20160618231540 Phone at 192.168.1.197 Not seen
+------------------------------------------------------------------------------------------
+20160618235109 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160619022734 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619022734 Phone at 192.168.1.109 Not seen
+20160619022736 home_L_WIFI_state = 1 bothcompsoff = 2
+20160619022736 Phone at 192.168.1.197 Not seen
+20160619022739 home_L_WIFI_state = 1 bothcompsoff = 3
+20160619022739 Phone at 192.168.1.109 Not seen
+20160619022741 home_L_WIFI_state = 1 bothcompsoff = 4
+20160619022741 Phone at 192.168.1.197 Not seen
+20160619022741 No phones detected. Turning off all house lights, set lstate to 0
+20160619022853 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160619022855 ftime <= 600 
+20160619022856 else ftime > sunset
+20160619023902 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619023902 Phone at 192.168.1.197 Not seen
+20160619023905 home_L_WIFI_state = 1 bothcompsoff = 2
+20160619023905 Phone at 192.168.1.109 Not seen
+20160619023908 home_L_WIFI_state = 1 bothcompsoff = 3
+20160619023908 Phone at 192.168.1.197 Not seen
+20160619023910 home_L_WIFI_state = 1 bothcompsoff = 4
+20160619023910 Phone at 192.168.1.109 Not seen
+20160619024416 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619024416 Phone at 192.168.1.197 Not seen
+20160619024419 home_L_WIFI_state = 1 bothcompsoff = 2
+20160619024419 Phone at 192.168.1.109 Not seen
+20160619024421 home_L_WIFI_state = 1 bothcompsoff = 3
+20160619024422 Phone at 192.168.1.197 Not seen
+20160619024426 home_L_WIFI_state = 1 bothcompsoff = 4
+20160619024427 Phone at 192.168.1.109 Not seen
+20160619024429 home_L_WIFI_state = 1 bothcompsoff = 5
+20160619024429 Phone at 192.168.1.197 Not seen
+20160619024429 No phones detected. Turning off all house lights, set lstate to 0
+------------------------------------------------------------------------------------------
+20160619094437 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160619094437 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160619094437 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619094437 Phone at 192.168.1.109 Not seen
+20160619094437 home_L_WIFI_state = 1 bothcompsoff = 2
+20160619094437 Phone at 192.168.1.197 Not seen
+20160619094438 home_L_WIFI_state = 1 bothcompsoff = 3
+20160619094438 Phone at 192.168.1.109 Not seen
+20160619094438 home_L_WIFI_state = 1 bothcompsoff = 4
+20160619094438 Phone at 192.168.1.197 Not seen
+20160619094438 No phones detected. Turning off all house lights, set lstate to 0
+------------------------------------------------------------------------------------------
+20160619094541 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160619094949 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160619101013 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619101013 Phone at 192.168.1.109 Not seen
+20160619110056 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619110056 Phone at 192.168.1.197 Not seen
+20160619110110 home_L_WIFI_state = 1 bothcompsoff = 2
+20160619110110 Phone at 192.168.1.109 Not seen
+20160619110124 home_L_WIFI_state = 1 bothcompsoff = 3
+20160619110124 Phone at 192.168.1.197 Not seen
+20160619110138 home_L_WIFI_state = 1 bothcompsoff = 4
+20160619110138 Phone at 192.168.1.109 Not seen
+20160619110149 home_L_WIFI_state = 1 bothcompsoff = 5
+20160619110149 Phone at 192.168.1.197 Not seen
+20160619110149 No phones detected. Turning off all house lights, set lstate to 0
+20160619160728 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160619160730 ftime < 1830 && ftime > 1200 
+------------------------------------------------------------------------------------------
+20160619164424 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160619164427 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619164427 Phone at 192.168.1.109 Not seen
+20160619164944 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619164944 Phone at 192.168.1.197 Not seen
+20160619171012 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619171012 Phone at 192.168.1.109 Not seen
+20160619171026 home_L_WIFI_state = 1 bothcompsoff = 2
+20160619171026 Phone at 192.168.1.197 Not seen
+20160619171037 home_L_WIFI_state = 1 bothcompsoff = 3
+20160619171037 Phone at 192.168.1.109 Not seen
+20160619171051 home_L_WIFI_state = 1 bothcompsoff = 4
+20160619171051 Phone at 192.168.1.197 Not seen
+20160619171051 No phones detected. Turning off all house lights, set lstate to 0
+20160619171414 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160619171416 ftime < 1830 && ftime > 1200 
+20160619190529 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619190529 Phone at 192.168.1.109 Not seen
+20160619193558 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619193558 Phone at 192.168.1.197 Not seen
+20160619202640 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619202640 Phone at 192.168.1.109 Not seen
+20160619231315 home_L_WIFI_state = 1 bothcompsoff = 1
+20160619231315 Phone at 192.168.1.197 Not seen
+20160620065719 home_L_WIFI_state = 1 bothcompsoff = 1
+20160620065719 Phone at 192.168.1.109 Not seen
+20160620073752 home_L_WIFI_state = 1 bothcompsoff = 1
+20160620073752 Phone at 192.168.1.197 Not seen
+20160620073803 home_L_WIFI_state = 1 bothcompsoff = 2
+20160620073803 Phone at 192.168.1.109 Not seen
+20160620073817 home_L_WIFI_state = 1 bothcompsoff = 3
+20160620073817 Phone at 192.168.1.197 Not seen
+20160620073829 home_L_WIFI_state = 1 bothcompsoff = 4
+20160620073829 Phone at 192.168.1.109 Not seen
+20160620073843 home_L_WIFI_state = 1 bothcompsoff = 5
+20160620073843 Phone at 192.168.1.197 Not seen
+20160620073843 No phones detected. Turning off all house lights, set lstate to 0
+20160620160022 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160620160024 ftime < 1830 && ftime > 1200 
+20160620185705 home_L_WIFI_state = 1 bothcompsoff = 1
+20160620185705 Phone at 192.168.1.109 Not seen
+20160620190724 home_L_WIFI_state = 1 bothcompsoff = 1
+20160620190724 Phone at 192.168.1.197 Not seen
+20160620190738 home_L_WIFI_state = 1 bothcompsoff = 2
+20160620190738 Phone at 192.168.1.109 Not seen
+20160620190752 home_L_WIFI_state = 1 bothcompsoff = 3
+20160620190752 Phone at 192.168.1.197 Not seen
+20160620190806 home_L_WIFI_state = 1 bothcompsoff = 4
+20160620190806 Phone at 192.168.1.109 Not seen
+20160620190820 home_L_WIFI_state = 1 bothcompsoff = 5
+20160620190820 Phone at 192.168.1.197 Not seen
+20160620190820 No phones detected. Turning off all house lights, set lstate to 0
+20160620190924 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160620190927 else ftime > sunset
+20160620192948 home_L_WIFI_state = 1 bothcompsoff = 1
+20160620192948 Phone at 192.168.1.109 Not seen
+20160620213604 home_L_WIFI_state = 1 bothcompsoff = 1
+20160620213604 Phone at 192.168.1.197 Not seen
+20160620213618 home_L_WIFI_state = 1 bothcompsoff = 2
+20160620213618 Phone at 192.168.1.109 Not seen
+20160620213632 home_L_WIFI_state = 1 bothcompsoff = 3
+20160620213632 Phone at 192.168.1.197 Not seen
+20160620213643 home_L_WIFI_state = 1 bothcompsoff = 4
+20160620213643 Phone at 192.168.1.109 Not seen
+20160620213657 home_L_WIFI_state = 1 bothcompsoff = 5
+20160620213657 Phone at 192.168.1.197 Not seen
+20160620213657 No phones detected. Turning off all house lights, set lstate to 0
+20160620213815 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160620213817 else ftime > sunset
+------------------------------------------------------------------------------------------
+20160620221144 Now starting Hue Wifi Home Scan v1.8_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160621073104 home_L_WIFI_state = 1 bothcompsoff = 1
+20160621073104 Phone at 192.168.1.109 Not seen
+20160621073247 home_L_WIFI_state = 1 bothcompsoff = 1
+20160621073247 Phone at 192.168.1.197 Not seen
+20160621073801 home_L_WIFI_state = 1 bothcompsoff = 2
+20160621073801 Phone at 192.168.1.109 Not seen
+20160621073814 home_L_WIFI_state = 1 bothcompsoff = 3
+20160621073814 Phone at 192.168.1.197 Not seen
+20160621073826 home_L_WIFI_state = 1 bothcompsoff = 4
+20160621073826 Phone at 192.168.1.109 Not seen
+20160621073840 home_L_WIFI_state = 1 bothcompsoff = 5
+20160621073840 Phone at 192.168.1.197 Not seen
+20160621073840 No phones detected. Turning off all house lights, set lstate to 0
+------------------------------------------------------------------------------------------
+20160621091903 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160621091905 home_L_WIFI_state = 1 bothcompsoff = 1
+20160621091905 Phone at comp1 Not seen
+20160621091908 home_L_WIFI_state = 1 bothcompsoff = 2
+20160621091908 Phone at comp2 Not seen
+20160621091908 home_L_WIFI_state = 1 bothcompsoff = 3
+20160621091908 Phone at  Not seen
+20160621091911 home_L_WIFI_state = 1 bothcompsoff = 4
+20160621091911 Phone at comp1 Not seen
+------------------------------------------------------------------------------------------
+20160621092013 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160621092019 home_L_WIFI_state = 1 bothcompsoff = 1
+20160621092019 Phone at comp1 Not seen
+20160621092022 home_L_WIFI_state = 1 bothcompsoff = 2
+20160621092022 Phone at comp2 Not seen
+20160621092022 home_L_WIFI_state = 1 bothcompsoff = 3
+20160621092022 Phone at  Not seen
+------------------------------------------------------------------------------------------
+20160621092224 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621092727 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161236 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161246 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161559 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161708 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161728 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161901 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621161946 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162009 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162128 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162245 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162358 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162412 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162458 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162503 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162751 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160621162847 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/20/16 
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"

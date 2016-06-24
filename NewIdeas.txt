@@ -1,0 +1,30 @@
+notes. persistance
+i like my lights to do things like stay at their set schedule or follow it. that means that if a light is extra bright when i actually want it dim, let's give it a way to go back to being dim without having to follow a set shedule
+
+i.e. bedroom lights are at 50%. but i go in and make 100% becuase i needed to look for something. 
+if it was on a set schedule, i would have to wait for that schedule
+but if i had a daemon that monitored that light and kept PERSISTANCE then i would say, check every 
+
+
+
+
+
+how to sync up all programs? 
+c:\killall.ctl
+
+make a subroutine that loooks for certain files in certain directories. easiest is base C drive. can make a C:\huebits\control
+
+control standard:
+num = arbitrary number that is assigned when running the program, either in gui or command line
+stop%num%.ctl
+stop_animation%num%.ctl
+animation%num%.ctl ;this one shows if a particular animation is currently running
+
+
+-----------------
+need to have a control program. 
+delete all of the ctl files
+and use the conrol program as a lancher to start all of the smaller programs
+that way we can doublecheck to make sure that animationand such files are deleted when their program closes
+the control prgoram can set and control the subprocesses
+

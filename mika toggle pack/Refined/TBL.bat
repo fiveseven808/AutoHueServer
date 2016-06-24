@@ -1,0 +1,1 @@
+"Toggle single light button.ahk" 8 S

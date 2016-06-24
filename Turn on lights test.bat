@@ -1,0 +1,1 @@
+"Hue Wifi Home Scan v1.5.ahk" 192.168.1.1 192.168.1.1 G-0_off.bat G-0_on.bat
