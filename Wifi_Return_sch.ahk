@@ -56,8 +56,8 @@ StringLen, numbah, sunset
 		;run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	
 		;run %WHClocation% -sn:Eaf10R5GyAgUoYO						;Turn on Group 1: Reading Normal
 		;run %WHClocation% -g:3 -on:true -bri:1						;Turn on Bathroom to 1%		
-		;run %A_ScriptDir%\Scene_Saver\ComingHomeAfterSunset.ahk
-		run %A_ScriptDir%\Scene_Saver\bleh.txt
+		run %A_ScriptDir%\Scene_Saver\ComingHomeAfterSunset.ahk
+		;run %A_ScriptDir%\Scene_Saver\bleh.txt
 		}
 ;msgbox, meh
 	
