@@ -37,7 +37,7 @@ StringLen, numbah, sunset
 		StringLeft, tempmath, tempmath, 3
 		run %WHClocation% -l:5 -on:true -bri:%tempmath%				;The closer it gets to 5pm, the closer the light gets to 50% brightness from 100% 
 		*/
-		passingclouds = %A_ScriptDir%\scenesaver\Passing_Clouds\PassingcloudsL5n50.bat
+		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\PassingcloudsL5n50.bat
 		;msgbox %passingclouds%
 		run %passingclouds%
 		}
@@ -52,10 +52,12 @@ StringLen, numbah, sunset
 		{
 		FileAppend,%A_Now% else ftime > sunset`n, %DaemonLog%
 		;msgbox, it's after %sunset%
-		run %WHClocation% -sn:rILZ32dtgZEFHDm						;Turn on Living Room (g2): Main Night 100% warm 
-		run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	
-		run %WHClocation% -sn:Eaf10R5GyAgUoYO						;Turn on Group 1: Reading Normal
-		run %WHClocation% -g:3 -on:true -bri:1						;Turn on Bathroom to 1%		
+		;run %WHClocation% -sn:rILZ32dtgZEFHDm						;Turn on Living Room (g2): Main Night 100% warm 
+		;run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	
+		;run %WHClocation% -sn:Eaf10R5GyAgUoYO						;Turn on Group 1: Reading Normal
+		;run %WHClocation% -g:3 -on:true -bri:1						;Turn on Bathroom to 1%		
+		;run %A_ScriptDir%\Scene_Saver\ComingHomeAfterSunset.ahk
+		run %A_ScriptDir%\Scene_Saver\bleh.txt
 		}
 ;msgbox, meh
 	
