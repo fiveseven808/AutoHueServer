@@ -37,7 +37,7 @@ StringLen, numbah, sunset
 		StringLeft, tempmath, tempmath, 3
 		run %WHClocation% -l:5 -on:true -bri:%tempmath%				;The closer it gets to 5pm, the closer the light gets to 50% brightness from 100% 
 		*/
-		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\PassingcloudsL5n50.bat
+		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_with_L5green.bat
 		;msgbox %passingclouds%
 		run %passingclouds%
 		}
