@@ -1,4 +1,7 @@
-WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
+	WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files\WinHue 3\whc.exe
+	WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 
 ;msgbox, a_hour is %a_hour%
 

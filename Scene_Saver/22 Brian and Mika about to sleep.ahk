@@ -1,4 +1,7 @@
-WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
+	WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files\WinHue 3\whc.exe
+	WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 
 runwait %WHClocation% -l:1 -on:true -bri:1 
 runwait %WHClocation% -l:2 -on:false -bri:144 

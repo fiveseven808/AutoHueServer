@@ -1,5 +1,7 @@
 ;List of times and actions that will happen when the phone reconnects to Wifi
+inilocation = ..\..\Config.ini
 #include Add_INI.ahk
+
 ftime := a_hour . a_min													;Format time in a HHmm way 
 minotd:= a_hour * 60 + a_min											
 ;msgbox wat = %ftime%
@@ -8,6 +10,10 @@ sunset := sunset - 10												;Make the night mode turn on 10 min before actu
 ;WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
 ;WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 ;msgbox, whclocation = %whclocation%
+IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
+    WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files\WinHue 3\whc.exe
+    WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 
 StringLen, numbah, sunset
 	If (ftime <= 600)														;If we come home before 6am
@@ -37,9 +43,11 @@ StringLen, numbah, sunset
 		StringLeft, tempmath, tempmath, 3
 		run %WHClocation% -l:5 -on:true -bri:%tempmath%				;The closer it gets to 5pm, the closer the light gets to 50% brightness from 100% 
 		*/
-		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_with_L5green.bat
+		;passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_with_L5green.bat Passing_clouds_Green.ahk l:5
+		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_Green.ahk l:5
 		;msgbox %passingclouds%
 		run %passingclouds%
+		fileappend, omg
 		}
 	If (ftime >= 1830 && ftime < sunset)											;If we come home after 6pm
 		{

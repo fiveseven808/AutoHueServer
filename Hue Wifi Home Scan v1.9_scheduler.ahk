@@ -10,6 +10,7 @@ Clickcount = 0
 bothcompsoff = 0
 Home_L_WIFI_State = 1			;Master state of all the lights int he house. i.e. if it's 0, don't let any lights power on. If it's 1 then lights are free to do whatever 
 
+inilocation = Config.ini
 #Include Add_INI.ahk			;Pull in other variables. 
 
 /*
