@@ -1,119 +1,4 @@
 ------------------------------------------------------------------------------------------
-20160621211530 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/21/16 
-Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
-------------------------------------------------------------------------------------------
-20160622064149 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/21/16 
-Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
-20160622070228 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622070228 Phone at 192.168.1.109 Not seen
-20160622071251 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622071251 Phone at 192.168.1.197 Not seen
-20160622071809 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622071809 Phone at 192.168.1.197 Not seen
-20160622072326 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622072326 Phone at 192.168.1.197 Not seen
-20160622072842 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622072842 Phone at 192.168.1.197 Not seen
-20160622073355 home_L_WIFI_state = 1 bothcompsoff = 2
-20160622073355 Phone at 192.168.1.109 Not seen
-20160622073409 home_L_WIFI_state = 1 bothcompsoff = 3
-20160622073409 Phone at 192.168.1.197 Not seen
-20160622073423 home_L_WIFI_state = 1 bothcompsoff = 4
-20160622073423 Phone at 192.168.1.109 Not seen
-20160622073434 home_L_WIFI_state = 1 bothcompsoff = 5
-20160622073434 Phone at 192.168.1.197 Not seen
-20160622073434 No phones detected. Turning off all house lights, set lstate to 0
-20160622160338 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
-Turning on house lights according to schedule!
-20160622160340 ftime < 1830 && ftime > 1200 
-20160622160355 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622160355 Phone at 192.168.1.197 Not seen
-20160622160911 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622160911 Phone at 192.168.1.197 Not seen
-20160622161427 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622161427 Phone at 192.168.1.197 Not seen
-20160622161944 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622161944 Phone at 192.168.1.197 Not seen
-20160622162501 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622162501 Phone at 192.168.1.197 Not seen
-20160622163015 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622163015 Phone at 192.168.1.197 Not seen
-20160622163531 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622163531 Phone at 192.168.1.197 Not seen
-20160622164047 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622164047 Phone at 192.168.1.197 Not seen
-20160622164604 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622164604 Phone at 192.168.1.197 Not seen
-20160622165121 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622165121 Phone at 192.168.1.197 Not seen
-20160622165637 home_L_WIFI_state = 1 bothcompsoff = 1
-20160622165637 Phone at 192.168.1.197 Not seen
-------------------------------------------------------------------------------------------
-20160622224000 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/21/16 
-Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
-20160623064330 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623064330 Phone at 192.168.1.197 Not seen
-20160623064846 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623064846 Phone at 192.168.1.197 Not seen
-20160623065402 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623065402 Phone at 192.168.1.197 Not seen
-20160623065918 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623065918 Phone at 192.168.1.197 Not seen
-20160623070434 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623070434 Phone at 192.168.1.197 Not seen
-20160623070950 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623070950 Phone at 192.168.1.197 Not seen
-20160623071509 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623071509 Phone at 192.168.1.197 Not seen
-20160623072026 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623072026 Phone at 192.168.1.197 Not seen
-20160623072539 home_L_WIFI_state = 1 bothcompsoff = 2
-20160623072539 Phone at 192.168.1.109 Not seen
-20160623072553 home_L_WIFI_state = 1 bothcompsoff = 3
-20160623072553 Phone at 192.168.1.197 Not seen
-20160623072607 home_L_WIFI_state = 1 bothcompsoff = 4
-20160623072607 Phone at 192.168.1.109 Not seen
-20160623072618 home_L_WIFI_state = 1 bothcompsoff = 5
-20160623072618 Phone at 192.168.1.197 Not seen
-20160623072618 No phones detected. Turning off all house lights, set lstate to 0
-20160623154537 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
-Turning on house lights according to schedule!
-20160623154539 ftime < 1830 && ftime > 1200 
-20160623154554 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623154554 Phone at 192.168.1.197 Not seen
-20160623155110 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623155110 Phone at 192.168.1.197 Not seen
-20160623155627 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623155627 Phone at 192.168.1.197 Not seen
-20160623160143 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623160143 Phone at 192.168.1.197 Not seen
-20160623160659 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623160659 Phone at 192.168.1.197 Not seen
-20160623161215 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623161215 Phone at 192.168.1.197 Not seen
-20160623161732 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623161732 Phone at 192.168.1.197 Not seen
-20160623162252 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623162252 Phone at 192.168.1.197 Not seen
-20160623162809 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623162809 Phone at 192.168.1.197 Not seen
-20160623163327 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623163327 Phone at 192.168.1.197 Not seen
-20160623163844 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623163844 Phone at 192.168.1.197 Not seen
-20160623164400 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623164400 Phone at 192.168.1.197 Not seen
-20160623164917 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623164917 Phone at 192.168.1.197 Not seen
-20160623165434 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623165434 Phone at 192.168.1.197 Not seen
-20160623165950 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623165950 Phone at 192.168.1.197 Not seen
-20160623170507 home_L_WIFI_state = 1 bothcompsoff = 1
-20160623170507 Phone at 192.168.1.197 Not seen
-20160623211328 else ftime > sunset
-20160624204045 else ftime > sunset
-------------------------------------------------------------------------------------------
 20160625224719 Now starting Hue Wifi Home Scan v1.9_scheduler.ahk! mod 6/21/16 
 Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
 20160626070619 home_L_WIFI_state = 1 bothcompsoff = 1
@@ -347,3 +232,27 @@ Turning on house lights according to schedule!
 20160627213724 Phone at 192.168.1.197 Not seen
 20160627214241 home_L_WIFI_state = 1 bothcompsoff = 1
 20160627214241 Phone at 192.168.1.197 Not seen
+20160627214758 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627214758 Phone at 192.168.1.197 Not seen
+20160627215314 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627215315 Phone at 192.168.1.197 Not seen
+20160627215831 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627215831 Phone at 192.168.1.197 Not seen
+20160627220347 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627220348 Phone at 192.168.1.197 Not seen
+20160627220904 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627220904 Phone at 192.168.1.197 Not seen
+20160627221420 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627221420 Phone at 192.168.1.197 Not seen
+20160627221937 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627221937 Phone at 192.168.1.197 Not seen
+20160627222454 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627222454 Phone at 192.168.1.197 Not seen
+20160627223010 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627223010 Phone at 192.168.1.197 Not seen
+20160627223526 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627223527 Phone at 192.168.1.197 Not seen
+20160627224043 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627224043 Phone at 192.168.1.197 Not seen
+20160627224600 home_L_WIFI_state = 1 bothcompsoff = 1
+20160627224600 Phone at 192.168.1.197 Not seen
