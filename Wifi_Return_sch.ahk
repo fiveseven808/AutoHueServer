@@ -1,5 +1,5 @@
 ;List of times and actions that will happen when the phone reconnects to Wifi
-inilocation = ..\..\Config.ini
+inilocation = Config.ini
 #include Add_INI.ahk
 
 ftime := a_hour . a_min													;Format time in a HHmm way 
