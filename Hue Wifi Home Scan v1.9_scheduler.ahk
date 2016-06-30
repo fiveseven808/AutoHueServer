@@ -87,7 +87,7 @@ goto Checkcomp
 
 
 CheckCompison:
-PingCmd:="ping " . ComputerName . " -n 3 >" . PingResults
+PingCmd:="ping " . ComputerName . " -n 4 >" . PingResults
 RunWait %comspec% /c """%PingCmd%""",,Hide
 Loop
 	{
