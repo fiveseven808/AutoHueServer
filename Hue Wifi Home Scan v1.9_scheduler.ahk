@@ -59,7 +59,7 @@ If 0 > 0
 	;Computername2 = %3%
 	compnumbers = %1%
 	FileAppend,------------------------------------------------------------------------------------------`n, %DaemonLog%
-	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 6/29/16 `nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
+	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 6/30/16 0800 `nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
 	Goto Checkcomp
 	}
 else
@@ -171,7 +171,7 @@ if compnumbers = 2
 		Computername = %3%							;Switching to 2nd phone
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 1)
-			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 5 minutes. dont wanna kill phone with pings 
+			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 2.5 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
@@ -193,7 +193,7 @@ if compnumbers = 3
 		Computername = %4%							;Switching to 2nd phone
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 2)
-			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 5 minutes. dont wanna kill phone with pings 
+			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 2.5 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 6)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
