@@ -3,8 +3,8 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-inilocation = ..\..\Config.ini
-#include ..\..\Add_INI.ahk
+inilocation = %A_ScriptDir%\..\..\Config.ini
+#include %A_ScriptDir%\..\..\Add_INI.ahk
 ;msgbox, %WHClocation%
 
 IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
