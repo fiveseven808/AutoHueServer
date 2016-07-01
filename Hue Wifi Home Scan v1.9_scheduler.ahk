@@ -87,7 +87,7 @@ goto Checkcomp
 
 
 CheckCompison:
-PingCmd:="ping " . ComputerName . " -n 4 >" . PingResults
+PingCmd:="ping " . ComputerName . " -4 -n 4 >" . PingResults
 RunWait %comspec% /c """%PingCmd%""",,Hide
 Loop
 	{
@@ -150,7 +150,7 @@ if compnumbers = 1
 		Computername = %2%							;Switching to 1st phone
 		gosub CheckCompison							;Checking if 1st phone is home
 		if (bothcompsoff = 0)
-			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 2.5 minutes. dont wanna kill phone with pings 
+			sleep 60000							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
@@ -171,7 +171,7 @@ if compnumbers = 2
 		Computername = %3%							;Switching to 2nd phone
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 1)
-			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 2.5 minutes. dont wanna kill phone with pings 
+			sleep 60000							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
@@ -193,7 +193,7 @@ if compnumbers = 3
 		Computername = %4%							;Switching to 2nd phone
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 2)
-			sleep 150000							;Since a phone was detected and an action was performed start the loop again after 2.5 minutes. dont wanna kill phone with pings 
+			sleep 60000							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 6)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}

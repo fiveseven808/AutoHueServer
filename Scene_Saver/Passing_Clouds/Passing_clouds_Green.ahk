@@ -7,6 +7,11 @@ inilocation = %A_ScriptDir%\..\..\Config.ini
 #include %A_ScriptDir%\..\..\Add_INI.ahk
 ;msgbox, %WHClocation%
 
+ftime := a_hour . a_min													;Format time in a HHmm way 						
+;msgbox wat = %ftime%
+#include %A_ScriptDir%\..\..\sunrise_sunset_distilled.ahk								;Gives us %sunrise% and %sunset% variables
+sunset := sunset - 10	
+
 IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
     WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
 IfExist, C:\Program Files\WinHue 3\whc.exe
@@ -32,7 +37,10 @@ Return
 
 Main:
 {
-	IfExist, ..\..\StopAni.tsk
+	;msgbox, sunset = %sunset%
+	if (ftime > sunset)
+		ExitApp															;ExitApp after sundown. Don't run if the sun is up lol
+	IfExist, %A_ScriptDir%..\..\StopAni.tsk
 		ExitApp
 	gosub Get_rand_num
 	;runwait %WHClocation% -l:5 -on:true -bri:130 -colormode:ct -hue:34282 -sat:165 -ct:153 -tt:%rand%
@@ -64,5 +72,5 @@ Get_rand_num:
 return
 
 ExitSub:
-	FileDelete, ..\..\StopAni.tsk
+	FileDelete, %A_ScriptDir%..\..\StopAni.tsk
 ExitApp 
