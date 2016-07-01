@@ -8,25 +8,23 @@ Schedule your Philips Hue lights with Wifi-based Geofencing! Uses your phone's I
 
 ### Bonus:
 
-	* Whole House "Scene" Creator  
-	* Run according to a schedule or Toggle a light (or group of lights) with an Amazon Dash Button!  
+>  * Whole House "Scene" Creator  
+>  * Run according to a schedule or Toggle a light (or group of lights) with an Amazon Dash Button!  
 
 
-Instructions as of 6/23/16
-
-Requirements:
+**Instructions as of 6/23/16**  
+**Requirements:**
 
   * Install [WinHue 3 BETA 15](https://github.com/Hyrules/WinHue3) or greater
   * Install [AutoHotKey](https://autohotkey.com/download/) (to run or compile the AHK files)
 	
-Instructions:
+**Instructions:**
 
-  1. Modify WHClocation in the ini file to your WinHue location 
-  2. Open Hue Wifi Home Scan v1.9_scheduler.ahk to understand syntax
-  3. Modify Wifi_Return_sch.ahk to suit your needs (get light and light specs with WinHue's WHC.exe) 
+  1. Double click "Hue Wifi Home Scan v1.9_scheduler.ahk" to understand syntax
+  2. Modify Wifi\_Return_sch.ahk to suit your needs (get light numbers and light specs with WinHue's WHC.exe)
 		
 
-First up
+**First upload**
 6/23/16
 
 	First upload to github. 
@@ -37,7 +35,7 @@ First up
 		 
 		 
 		 
-Wishlist:
+**Wishlist:**
 
   * Proper animation handling (and creation?!, depends if WinHue will beat me to it) 
   * Proper GUI based scheduling (instead of modifying an AHK)
