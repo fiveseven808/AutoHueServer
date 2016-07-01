@@ -1,6 +1,6 @@
 AutoHueServer
 =============
-# Automatic Philips Hue Server
+## Automatic Philips Hue Server
 
 
 ### Summary: 
