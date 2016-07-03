@@ -188,11 +188,14 @@ else if PingError > 1
 	if ErrorLevel
 		exitapp
 	FileSelectfile, DaemonFile
+	InputBox, Button_Comment , Enter Comment of Button, Comment for Button Goes here
+	if ErrorLevel
+		exitapp
 	DaemonFile = "%DaemonFile%"
-	DaemonCmd:="AmazonButton_v3.2 " . Chosen_IP . " " . DaemonFile
+	DaemonCmd:="AmazonButton_v3.2 " . Chosen_IP . " " . DaemonFile . " """ . Button_Comment . """ "
 	Run %DaemonCmd%
 	FileDelete, Amazon_IPs.txt
-	msgbox, You will now run %DaemonFile% When the button at %Chosen_IP% has been pressed! 
+	msgbox, You will now run %DaemonFile% When the button at %Chosen_IP% has been pressed! ``n`nButton Comment is %Button_Comment%
 	exitapp
 	}
 else
@@ -204,11 +207,14 @@ else
 	IfMsgbox Cancel
 		exitapp
 	FileSelectfile, DaemonFile
+	InputBox, Button_Comment , Enter Comment of Button, Comment for Button Goes here
+	if ErrorLevel
+		exitapp
 	DaemonFile = "%DaemonFile%"
-	DaemonCmd:="AmazonButton_v3.2 " . comp_ip . trimmed_ip . " " . DaemonFile
+	DaemonCmd:="AmazonButton_v3.2 " . comp_ip . trimmed_ip . " " . DaemonFile . " """ . Button_Comment . """ "
 	;msgbox, %DaemonCmd%
 	Run %DaemonCmd%
-	msgbox, You will now run %DaemonFile% When the button at %Comp_IP%%trimmed_ip% has been pressed! 
+	msgbox, You will now run %DaemonFile% When the button at %Comp_IP%%trimmed_ip% has been pressed! ``n`nButton Comment is %Button_Comment%
 	}
 FileDelete, Amazon_IPs.txt
 Exitapp
