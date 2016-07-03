@@ -6,7 +6,7 @@ AutoHueServer
 ### Summary: Updated 7/2/2016
 Schedule your Philips Hue lights with Wifi-based Geofencing! Uses your phone's IP to determine if you're home!  
 
-###### If you're lazy and just want things to "work" a basic wifi based geofencing version is available at \Prod\Package\Prod 2016_0702.7z  
+###### If you're lazy and just want things to "work" a basic wifi based geofencing version is available at [\Prod\Package\Prod 2016_0702.7z](https://github.com/fiveseven808/AutoHueServer/raw/master/Prod/Package/Prod%202016_0702.7z)  
 ###### Instructions are located in that directory 
 
 ### Bonus:
