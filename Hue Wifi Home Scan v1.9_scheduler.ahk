@@ -59,7 +59,7 @@ If 0 > 0
 	;Computername2 = %3%
 	compnumbers = %1%
 	FileAppend,------------------------------------------------------------------------------------------`n, %DaemonLog%
-	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 6/30/16 0800 `nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
+	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 7/1/16 0036 `nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
 	Goto Checkcomp
 	}
 else
@@ -80,15 +80,19 @@ Checkcomp:
 		FileAppend,%A_Now% No phones detected. Turning off all house lights`, set lstate to 0`n, %DaemonLog%
 		Home_L_WIFI_State = 0						;Let the program know that wifi is keeping the lights off. 
 		}
-	runwait, %OFF_file%,,Hide						;Turn off the house lights
-	;FileAppend,%A_Now% broke out of loop`,  shut off the lights and now sleeping for 1 min  `n, %DaemonLog%
-	sleep 60000 									;Since lights were turned off by wifi Check again every 0.5 minutes 					
+	runwait, %OFF_file%,,Hide UseErrorLevel			;Turn off the house lights
+	if ErrorLevel = ERROR
+		FileAppend,%A_Now% %OFF_file% could not be run! `n, %DaemonLog%
+	FileAppend,%A_Now% broke out of loop`,  shut off the lights and now sleeping for 1 min  `n, %DaemonLog%
+	sleep 30000 									;Since lights were turned off by wifi Check again every 0.5 minutes 					
 goto Checkcomp
 
 
 CheckCompison:
 PingCmd:="ping " . ComputerName . " -4 -n 4 >" . PingResults
-RunWait %comspec% /c """%PingCmd%""",,Hide
+RunWait %comspec% /c """%PingCmd%""",,Hide UseErrorLevel
+if ErrorLevel = ERROR
+	FileAppend,%A_Now% Could not launch command prompt for some reason `n, %DaemonLog%
 Loop
 	{
 	PingError:=false
@@ -100,13 +104,15 @@ Loop
 	IfInString,PingLine,%PingYas%
 		{
 		PingError:=true							;Looks like we can see the phone! 
-		;FileAppend,%A_Now% Phone at %ComputerName% Detected!`n, %DaemonLog%
+		FileAppend,%A_Now% Phone at %ComputerName% Detected!`n, %DaemonLog%
 		bothcompsoff = 0						; Reset phone counter if at least one phone is spotted!
 		If Home_L_WIFI_State = 0				;Did the lights get turned off because wifi? Yes? Proceed... 
 			{
 			FileAppend,%A_Now% Device at %computername% detected! Lights were turned off via Wifi before so... `nTurning on house lights according to schedule!`n, %DaemonLog%
 			Home_L_WIFI_State = 1				;Mark that we're turning the lights back on becuase of wifi! 
-			Runwait %Scheduler_File% 			;RunWait the schedule to go through when you return with your phone
+			Runwait %Scheduler_File% ,,UseErrorLevel  ;RunWait the schedule to go through when you return with your phone
+			if ErrorLevel = ERROR
+				FileAppend,%A_Now% %Scheduler_File% could not be run! `n, %DaemonLog%
 			}
 		break
 		}

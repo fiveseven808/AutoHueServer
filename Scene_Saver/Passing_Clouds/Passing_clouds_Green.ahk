@@ -40,7 +40,7 @@ Main:
 	;msgbox, sunset = %sunset%
 	if (ftime > sunset)
 		ExitApp															;ExitApp after sundown. Don't run if the sun is up lol
-	IfExist, %A_ScriptDir%..\..\StopAni.tsk
+	IfExist, ..\..\StopAni.tsk
 		ExitApp
 	gosub Get_rand_num
 	;runwait %WHClocation% -l:5 -on:true -bri:130 -colormode:ct -hue:34282 -sat:165 -ct:153 -tt:%rand%
@@ -72,5 +72,5 @@ Get_rand_num:
 return
 
 ExitSub:
-	FileDelete, %A_ScriptDir%..\..\StopAni.tsk
+	FileDelete, ..\..\StopAni.tsk
 ExitApp 

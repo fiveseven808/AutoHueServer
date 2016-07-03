@@ -15,6 +15,7 @@ IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
 IfExist, C:\Program Files\WinHue 3\whc.exe
     WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 
+
 StringLen, numbah, sunset
 	If (ftime <= 600)														;If we come home before 6am
 		{
@@ -31,7 +32,7 @@ StringLen, numbah, sunset
 		}
 	If (ftime < 1830 && ftime > 1200)								;If we come home before 6pm
 		{
-		FileAppend,%A_Now% ftime < 1830 && ftime > 1200 `n, %DaemonLog%
+		FileAppend,%A_Now% %ftime% < 1830 && %ftime% > 1200 `n, %DaemonLog%
 		;msgbox wat = %ftime%											
 		;run %WHClocation% -l:5 -on:true -ct:220	-bri:188	 		;6pm Concentrate
 		;sleep 600000													;Wait about 10 minutes, then bring it to green
@@ -51,14 +52,14 @@ StringLen, numbah, sunset
 		}
 	If (ftime >= 1830 && ftime < sunset)											;If we come home after 6pm
 		{
-		FileAppend,%A_Now% ftime >= 1830 && ftime < sunset `n, %DaemonLog%
+		FileAppend,%A_Now% %ftime% >= 1830 && %ftime% < %sunset% sunset `n, %DaemonLog%
 		;msgbox, it's after 1800 but before %sunset%
-		run %WHClocation% -sn:y9fm4pv2umCmo79		 				;Turn on Group2: Main night 100% warm
+		run %WHClocation% -sn:nFLunm1x6jUDNB8		 				;Turn on Group2: Main night 100% warm
 		run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	
 		}		
 	else if (ftime > sunset)															;If we come home after 8 
 		{
-		FileAppend,%A_Now% else ftime > sunset`n, %DaemonLog%
+		FileAppend,%A_Now% else ftime = %ftime% > sunset = %sunset% `n, %DaemonLog%
 		;msgbox, it's after %sunset%
 		;run %WHClocation% -sn:rILZ32dtgZEFHDm						;Turn on Living Room (g2): Main Night 100% warm 
 		;run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	

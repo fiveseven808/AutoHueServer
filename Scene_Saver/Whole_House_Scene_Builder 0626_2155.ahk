@@ -10,7 +10,7 @@ IfExist, C:\Program Files\WinHue 3\whc.exe
 
 tempLSfile = LS_temp.txt
 Scenefile = Scene.ahk
-Max_light_ID = 11
+Max_light_ID = 12
 
 FileDelete, %Scenefile%
 

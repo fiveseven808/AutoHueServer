@@ -28,3 +28,13 @@ and use the conrol program as a lancher to start all of the smaller programs
 that way we can doublecheck to make sure that animationand such files are deleted when their program closes
 the control prgoram can set and control the subprocesses
 
+-------------------
+Control panel!
+Gui control panel that tells if things like animations are running
+	check with internal log file (i.e. task manager file with pid? i.e. start and then write pid to file)
+what button was pushed last and when
+big button to stop any animations 
+what lights are scheduled to turn on or off coming up (based on this schedule)
+	i.e. if i come home now, what lights should turn on
+	big button to run that task now
+	
