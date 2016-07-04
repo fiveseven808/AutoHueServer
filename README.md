@@ -33,3 +33,9 @@ Schedule your Philips Hue lights with Wifi-based Geofencing! Uses your phone's I
   * Proper GUI based scheduling (instead of modifying an AHK)
   * The ability to save and replay whole house scenes without relying on AHK... maybe make batch files from computer specific attributes. i.e. scenes only work per house which would make sense. 
 	
+	
+**License:** 
+
+[Creative Commons Attribution-NonCommercial 4.0 International ](https://creativecommons.org/licenses/by-nc/4.0/)  
+
+Obviously the creator of this software can't and won't be held responsible for any sort of "issues" or "problems" that may arise through use of or viewing of any files related to this project. 
