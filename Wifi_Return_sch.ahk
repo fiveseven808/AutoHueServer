@@ -20,10 +20,13 @@ StringLen, numbah, sunset
 	If (ftime <= 600)														;If we come home before 6am
 		{
 		FileAppend,%A_Now% ftime <= 600 `n, %DaemonLog%
+		/*
 		run %WHClocation% -sn:rILZ32dtgZEFHDm						;Turn on Living Room (g2): Main Night 100% warm 
 		run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	
 		run %WHClocation% -sn:Eaf10R5GyAgUoYO						;Turn on Group 1: Reading Normal
 		run %WHClocation% -g:3 -on:true -bri:1						;Turn on Bathroom to 1%		
+		*/
+		run %A_ScriptDir%\Scene_Saver\19_ComingHomeAfterSunset.ahk
 		}	
 	If (ftime <= 1200 && ftime > 600)								;If we come home before noon but after 6am 
 		{
@@ -65,7 +68,7 @@ StringLen, numbah, sunset
 		;run %WHClocation% -g:4 -on:true -bri:191					;Turn on Hallway light to 75%	
 		;run %WHClocation% -sn:Eaf10R5GyAgUoYO						;Turn on Group 1: Reading Normal
 		;run %WHClocation% -g:3 -on:true -bri:1						;Turn on Bathroom to 1%		
-		run %A_ScriptDir%\Scene_Saver\ComingHomeAfterSunset.ahk
+		run %A_ScriptDir%\Scene_Saver\19_ComingHomeAfterSunset.ahk
 		;run %A_ScriptDir%\Scene_Saver\bleh.txt
 		}
 ;msgbox, meh

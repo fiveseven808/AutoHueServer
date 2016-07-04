@@ -83,7 +83,7 @@ Checkcomp:
 	runwait, %OFF_file%,,Hide UseErrorLevel			;Turn off the house lights
 	if ErrorLevel = ERROR
 		FileAppend,%A_Now% %OFF_file% could not be run! `n, %DaemonLog%
-	FileAppend,%A_Now% broke out of loop`,  shut off the lights and now sleeping for 1 min  `n, %DaemonLog%
+	;FileAppend,%A_Now% broke out of loop`,  shut off the lights and now sleeping for 1 min  `n, %DaemonLog%
 	sleep 30000 									;Since lights were turned off by wifi Check again every 0.5 minutes 					
 goto Checkcomp
 
@@ -104,7 +104,7 @@ Loop
 	IfInString,PingLine,%PingYas%
 		{
 		PingError:=true							;Looks like we can see the phone! 
-		FileAppend,%A_Now% Phone at %ComputerName% Detected!`n, %DaemonLog%
+		;FileAppend,%A_Now% Phone at %ComputerName% Detected!`n, %DaemonLog%
 		bothcompsoff = 0						; Reset phone counter if at least one phone is spotted!
 		If Home_L_WIFI_State = 0				;Did the lights get turned off because wifi? Yes? Proceed... 
 			{
@@ -123,18 +123,20 @@ If PingError != 1								;Break out of this loop only when a phone disappears
 	{
 	bothcompsoff := ++bothcompsoff				;Add to the bothcompsoff variable to let someone know that one phone disappeared 
 	;FileAppend,%A_Now% after add bothcompsoff = %bothcompsoff%`n, %DaemonLog%
-	/*
+	
 	If Home_L_WIFI_State = 1
 		{
 		FileAppend,%A_Now% home_L_WIFI_state = %Home_L_WIFI_State% bothcompsoff = %bothcompsoff%`n, %DaemonLog%
 		FileAppend,%A_Now% Phone at %ComputerName% Not seen`n, %DaemonLog%
 		}
-	*/
+	
+	/*
 	If bothcompsoff > 2
 		{
 		FileAppend,%A_Now% home_L_WIFI_state = %Home_L_WIFI_State% bothcompsoff = %bothcompsoff%`n, %DaemonLog%
 		FileAppend,%A_Now% Phone at %ComputerName% Not seen`n, %DaemonLog%
 		}
+	*/
 	}
 return
 
