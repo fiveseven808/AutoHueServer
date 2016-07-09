@@ -9,7 +9,8 @@ inilocation = %A_ScriptDir%\..\..\Config.ini
 
 ftime := a_hour . a_min													;Format time in a HHmm way 						
 ;msgbox wat = %ftime%
-
+#include %A_ScriptDir%\..\..\sunrise_sunset_distilled.ahk								;Gives us %sunrise% and %sunset% variables
+sunset := sunset - 10	
 
 IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
     WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
@@ -21,7 +22,6 @@ OnExit, ExitSub
 
 Startup:
 {
-FileDelete, ..\..\StopAni.tsk
 If 0 > 0
 	{
 	lightorgroup = %1%
@@ -37,9 +37,6 @@ Return
 
 Main:
 {
-	#include %A_ScriptDir%\..\..\sunrise_sunset_distilled.ahk								;Gives us %sunrise% and %sunset% variables
-	sunset := sunset - 10	
-	FileAppend,%A_Now% starting passing clouds green `n, ..\..\%DaemonLog%
 	;msgbox, sunset = %sunset%
 	if (ftime > sunset)
 		ExitApp															;ExitApp after sundown. Don't run if the sun is up lol
@@ -75,6 +72,5 @@ Get_rand_num:
 return
 
 ExitSub:
-	FileAppend,%A_Now% exiting passing clouds green `n, ..\..\%DaemonLog%
 	FileDelete, ..\..\StopAni.tsk
 ExitApp 

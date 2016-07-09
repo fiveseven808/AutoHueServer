@@ -51,7 +51,7 @@ StringLen, numbah, sunset
 		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_Green.ahk l:5
 		;msgbox %passingclouds%
 		run %passingclouds%
-		fileappend, omg
+		fileappend, Started Passing Clouds Green on light 5 `n, %DaemonLog%
 		}
 	If (ftime >= 1830 && ftime < sunset)											;If we come home after 6pm
 		{

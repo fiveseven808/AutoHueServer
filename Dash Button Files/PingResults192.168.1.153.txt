@@ -1,0 +1,2 @@
+
+Pinging 192.168.1.153 with 32 bytes of data:

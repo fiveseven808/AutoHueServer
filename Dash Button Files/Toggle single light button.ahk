@@ -9,8 +9,11 @@ Combined the smart button toggle with the standard toggle. smart toggle is only 
 
 */
 
+IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
+    WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files\WinHue 3\whc.exe
+    WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 
-#include Add_INI.ahk
 Main:
 {
 FileDelete, Lightstate_Amazon.state
@@ -44,6 +47,7 @@ Togglelight:
 
 If !smart
 {
+;msgbox, notsmart
 IfInString, l_on1, true	;only works with groups. individua lights have a "reachable thing: 
     {
 	;msgbox, light is on
