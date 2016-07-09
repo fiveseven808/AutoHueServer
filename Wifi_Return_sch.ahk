@@ -10,10 +10,7 @@ sunset := sunset - 10												;Make the night mode turn on 10 min before actu
 ;WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
 ;WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 ;msgbox, whclocation = %whclocation%
-IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
-    WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
-IfExist, C:\Program Files\WinHue 3\whc.exe
-    WHClocation = "C:\Program Files\WinHue 3\whc.exe"
+
 
 
 StringLen, numbah, sunset
@@ -50,8 +47,8 @@ StringLen, numbah, sunset
 		;passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_with_L5green.bat Passing_clouds_Green.ahk l:5
 		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_Green.ahk l:5
 		;msgbox %passingclouds%
-		run %passingclouds%
-		fileappend, Started Passing Clouds Green on light 5 `n, %DaemonLog%
+		run,%passingclouds%, , UseErrorLevel
+		fileappend, Started Passing Clouds Green on light 5 with error %ErrorLevel% `n, %DaemonLog%
 		}
 	If (ftime >= 1830 && ftime < sunset)											;If we come home after 6pm
 		{

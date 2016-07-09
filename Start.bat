@@ -1,1 +1,1 @@
-"Hue Wifi Home Scan v1.9_scheduler.ahk" 2 192.168.1.109 192.168.1.197
+"Hue Wifi Home Scan v1.10_scheduler.ahk" 2 192.168.1.109 192.168.1.197

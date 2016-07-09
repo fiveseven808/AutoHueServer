@@ -9,11 +9,17 @@ PingYas:="bytes=32"
 Clickcount = 0
 bothcompsoff = 0
 Home_L_WIFI_State = 1			;Master state of all the lights int he house. i.e. if it's 0, don't let any lights power on. If it's 1 then lights are free to do whatever 
+StateChange = 0
 
 inilocation = Config.ini
 #Include Add_INI.ahk			;Pull in other variables. 
 
 /*
+v1.10
+	moved some routines around. 
+	7/9 just changed start.bat to open this one instead of 1.9! 
+	sleep if phone detected is no longer 60 seconds, but now pulls from config.ini
+	added the WHC autodetect path script to add_ini so that all scripts can now point to it instead of including the long ass thing. 
 v1.5 Operation of the program
 
 Check phone 1
@@ -59,12 +65,12 @@ If 0 > 0
 	;Computername2 = %3%
 	compnumbers = %1%
 	FileAppend,------------------------------------------------------------------------------------------`n, %DaemonLog%
-	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 7/1/16 0036 `nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
+	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 7/9/16 02302`nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
 	Goto Checkcomp
 	}
 else
 	{
-	Msgbox, Must be run in command line with switches `n`n"Hue Wifi Home Scan v1.9.ahk" [Number of IPs to check 1-3 ] [Phone1 IP] [Phone2 IP] [Phone3 IP] `n`n`This launches a program when your phones go in and out of wifi range. `ni.e. shut off the lights when no one is home. Turn the lights back on when someone comes back home. 
+	Msgbox, Must be run in command line with switches `n`n"Hue Wifi Home Scan v1.10_scheduler.ahk" [Number of IPs to check 1-3 ] [Phone1 IP] [Phone2 IP] [Phone3 IP] `n`n`This launches a program when your phones go in and out of wifi range. `ni.e. shut off the lights when no one is home. Turn the lights back on when someone comes back home. 
 	ExitApp
 	}
 }
@@ -107,7 +113,7 @@ if compnumbers = 1
 		Computername = %2%							;Switching to 1st phone
 		gosub CheckCompison							;Checking if 1st phone is home
 		if (bothcompsoff = 0)
-			sleep 60000							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
+			sleep %detectedtimeout%							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
@@ -128,7 +134,7 @@ if compnumbers = 2
 		Computername = %3%							;Switching to 2nd phone
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 1)
-			sleep 60000							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
+			sleep %detectedtimeout%								;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
@@ -150,7 +156,7 @@ if compnumbers = 3
 		Computername = %4%							;Switching to 2nd phone
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 2)
-			sleep 60000							;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
+			sleep %detectedtimeout%								;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
 		else If (bothcompsoff >= 6)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
@@ -189,6 +195,7 @@ Loop
 			{
 			FileAppend,%A_Now% Device at %computername% detected! Lights were turned off via Wifi before so... `nTurning on house lights according to schedule!`n, %DaemonLog%
 			Home_L_WIFI_State = 1				;Mark that we're turning the lights back on becuase of wifi! 
+			StateChange = 1
 			Runwait %Scheduler_File% ,,UseErrorLevel  ;RunWait the schedule to go through when you return with your phone
 			if ErrorLevel = ERROR
 				FileAppend,%A_Now% %Scheduler_File% could not be run! `n, %DaemonLog%
@@ -203,7 +210,7 @@ If PingError != 1								;Break out of this loop only when a phone disappears
 	bothcompsoff := ++bothcompsoff				;Add to the bothcompsoff variable to let someone know that one phone disappeared 
 	;FileAppend,%A_Now% after add bothcompsoff = %bothcompsoff%`n, %DaemonLog%
 	
-	If Home_L_WIFI_State = 1
+	If (Home_L_WIFI_State = 1 && bothcompsoff > 2)
 		{
 		FileAppend,%A_Now% home_L_WIFI_state = %Home_L_WIFI_State% bothcompsoff = %bothcompsoff%`n, %DaemonLog%
 		FileAppend,%A_Now% Phone at %ComputerName% Not seen`n, %DaemonLog%
