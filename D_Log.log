@@ -377,3 +377,24 @@ Turning on house lights according to schedule!
 20160719123404 1234 < 1830 && 1234 > 1200 
 Started Passing Clouds Green on light 5 with error 0 
 20160719123405 starting passing clouds green. sun will set at 1906
+20160719190711 ftime 1907 > sunset 1906
+20160719190711 exiting passing clouds green 
+20160719194829 else ftime = 1948 > sunset = 1906 
+20160719205216 home_L_WIFI_state = 1 bothcompsoff = 3
+20160719205216 Phone at 192.168.1.197 Not seen
+20160719205235 home_L_WIFI_state = 1 bothcompsoff = 4
+20160719205235 Phone at 192.168.1.109 Not seen
+20160719205254 home_L_WIFI_state = 1 bothcompsoff = 5
+20160719205254 Phone at 192.168.1.197 Not seen
+20160719205313 home_L_WIFI_state = 1 bothcompsoff = 6
+20160719205313 Phone at 192.168.1.109 Not seen
+20160719205332 home_L_WIFI_state = 1 bothcompsoff = 7
+20160719205332 Phone at 192.168.1.197 Not seen
+20160719205351 home_L_WIFI_state = 1 bothcompsoff = 8
+20160719205351 Phone at 192.168.1.109 Not seen
+20160719205410 home_L_WIFI_state = 1 bothcompsoff = 9
+20160719205410 Phone at 192.168.1.197 Not seen
+20160719205410 No phones detected. Turning off all house lights, set lstate to 0
+20160719205446 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160719205448 else ftime = 2054 > sunset = 1906 
