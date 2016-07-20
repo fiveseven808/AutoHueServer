@@ -25,6 +25,10 @@ FileDelete, ..\..\StopAni.tsk
 If 0 > 0
 	{
 	lightorgroup = %1%
+	#include %A_ScriptDir%\..\..\sunrise_sunset_distilled.ahk								;Gives us %sunrise% and %sunset% variables
+	sunset := sunset - 10	
+	;msgbox, sunset = %sunset%
+	FileAppend,%A_Now% starting passing clouds green. sun will set at %sunset%`n, ..\..\%DaemonLog%
 	Goto Main
 	}
 	else
@@ -37,12 +41,13 @@ Return
 
 Main:
 {
-	#include %A_ScriptDir%\..\..\sunrise_sunset_distilled.ahk								;Gives us %sunrise% and %sunset% variables
-	sunset := sunset - 10	
-	FileAppend,%A_Now% starting passing clouds green `n, ..\..\%DaemonLog%
-	;msgbox, sunset = %sunset%
+	ftime := a_hour . a_min													;Format time in a HHmm way 	
+	;msgbox, ftime %ftime% and sunset %sunset%
 	if (ftime > sunset)
+		{
+		FileAppend,%A_Now% ftime %ftime% > sunset %sunset%`n, ..\..\%DaemonLog%
 		ExitApp															;ExitApp after sundown. Don't run if the sun is up lol
+		}
 	IfExist, ..\..\StopAni.tsk
 		ExitApp
 	gosub Get_rand_num
@@ -69,7 +74,7 @@ goto main
 }
 
 Get_rand_num:
-	Random, rand, 4, 100
+	Random, rand, 10, 100
 	Random, sleeprand, 1000, 10000
 	sleeptt := rand*100
 return

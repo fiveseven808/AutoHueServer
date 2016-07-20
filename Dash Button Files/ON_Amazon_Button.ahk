@@ -1,4 +1,7 @@
-WHClocation = "C:\Program Files\WinHue 3\whc.exe"
+IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
+    WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
+IfExist, C:\Program Files\WinHue 3\whc.exe
+    WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 
 ;msgbox, a_hour is %a_hour%
 
@@ -27,6 +30,7 @@ eveningtime := sunset - 100
 		runwait %WHClocation% -g:0 -on:true -bri:255					;Turn on everything to 100%	
 		runwait %WHClocation% -sn:JXgWbuOznXkVYui						;Make bedroom nice and morning 
 		runwait %WHClocation% -sn:H1lIT73NrbLmCLo						;Make Living room nice and morning
+		runwait %WHClocation% -g:5 -on:false 							;Turn off front porch light 
 		}	
 	If (ftime >= 800 && ftime < 1200)														;If we come home before 6am
 		{

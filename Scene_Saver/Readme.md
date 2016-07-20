@@ -11,7 +11,8 @@ Schedule your Philips Hue lights with Wifi-based Geofencing! Uses your phone's I
 **Instructions as of 7/5/16**  
 **Requirements:**
 
-  * Install [WinHue 3 BETA 15](https://github.com/Hyrules/WinHue3) or greater
+  * Install [WinHue 3 BETA ](https://github.com/Hyrules/WinHue3) or greater
+  * Requires WinHue 3 BETA 16 or greater for the group script to work properly
   * Install [AutoHotKey](https://autohotkey.com/download/) (to run or compile the AHK files)
 	
 **Instructions: (vague since I'm lazy)**

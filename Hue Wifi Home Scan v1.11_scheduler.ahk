@@ -15,6 +15,10 @@ inilocation = Config.ini
 #Include Add_INI.ahk			;Pull in other variables. 
 
 /*
+v1.11 
+	*trying new things. gonna put a pause signal to pause the amazon buttons - read dash folder location from ini and if dash exists in ini	
+	*because the thing will pause dash buttons, will shorten the time between pings when out of the house. this will turn the lights on quicker when not at home. or if the lights accidentally go off, they'll turn on quicker 
+	*NONE OF THIS IS IMPLEMENTE YET 
 v1.10
 	moved some routines around. 
 	7/9 just changed start.bat to open this one instead of 1.9! 
@@ -135,7 +139,7 @@ if compnumbers = 2
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 1)
 			sleep %detectedtimeout%								;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
-		else If (bothcompsoff >= 8)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
+		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
 	}
@@ -157,7 +161,7 @@ if compnumbers = 3
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 2)
 			sleep %detectedtimeout%								;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
-		else If (bothcompsoff >= 12)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
+		else If (bothcompsoff >= 6)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
 	}

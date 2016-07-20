@@ -33,20 +33,7 @@ StringLen, numbah, sunset
 	If (ftime < 1830 && ftime > 1200)								;If we come home before 6pm
 		{
 		FileAppend,%A_Now% %ftime% < 1830 && %ftime% > 1200 `n, %DaemonLog%
-		;msgbox wat = %ftime%											
-		;run %WHClocation% -l:5 -on:true -ct:220	-bri:188	 		;6pm Concentrate
-		;sleep 600000													;Wait about 10 minutes, then bring it to green
-		/*run %WHClocation% -sn:1WHGpel2QbjsaUD						;Turn green
-		tempmath := a_hour - 12
-		tempmath := tempmath / 
-		tempmath := 1-tempmath
-		tempmath := (tempmath * 127) + 127
-		StringLeft, tempmath, tempmath, 3
-		run %WHClocation% -l:5 -on:true -bri:%tempmath%				;The closer it gets to 5pm, the closer the light gets to 50% brightness from 100% 
-		*/
-		;passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_with_L5green.bat Passing_clouds_Green.ahk l:5
 		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_Green.ahk l:5
-		;msgbox %passingclouds%
 		run,%passingclouds%, , UseErrorLevel
 		fileappend, Started Passing Clouds Green on light 5 with error %ErrorLevel% `n, %DaemonLog%
 		}

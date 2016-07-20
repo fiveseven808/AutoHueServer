@@ -9,8 +9,6 @@ Combined the smart button toggle with the standard toggle. smart toggle is only 
 
 */
 
-#Include Add_INI.ahk
-
 IfExist, C:\Program Files (x86)\WinHue 3\whc.exe
     WHClocation = "C:\Program Files (x86)\WinHue 3\whc.exe"
 IfExist, C:\Program Files\WinHue 3\whc.exe
@@ -47,7 +45,7 @@ Togglelight:
 	;msgbox %bri1%
 	FileDelete, Lightstate_Amazon.state
 
-If !smart
+If smart != s
 {
 ;msgbox, notsmart
 IfInString, l_on1, true	;only works with groups. individua lights have a "reachable thing: 
@@ -55,17 +53,15 @@ IfInString, l_on1, true	;only works with groups. individua lights have a "reacha
 	;msgbox, light is on
 	HueCmd=%WHClocation% -l:%lightnumber% -on:false
 	Run %comspec% /c """%HueCmd%""" ,,Hide
-	FileAppend,%A_Now% Toggle for lightnumber %lightnumber% has been initiated. Turning off`n, %DaemonLog%
 	}
 IfInString, l_on1, false
     {
 	;msgbox, light is off
 	HueCmd=%WHClocation% -l:%lightnumber% -on:true -bri:254 -ct:346
 	Run %comspec% /c """%HueCmd%""" ,,Hide
-	FileAppend,%A_Now% Toggle for lightnumber %lightnumber% has been initiated. Turning on`n, %DaemonLog%
 	}
 }
-else If smart
+else If smart = s
 {
 	IfInString, l_on1, true	;only works with groups. individua lights have a "reachable thing: 
 		{

@@ -4,3 +4,376 @@ Running on YTHP from path
 ------------------------------------------------------------------------------------------
 20160709021726 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
 Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160709105135 home_L_WIFI_state = 1 bothcompsoff = 3
+20160709105135 Phone at 192.168.1.109 Not seen
+20160709105154 home_L_WIFI_state = 1 bothcompsoff = 4
+20160709105154 Phone at 192.168.1.197 Not seen
+20160709110828 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160709110830 ftime <= 1200 && ftime > 600 
+20160709141334 starting passing clouds green 
+20160709141403 starting passing clouds green 
+20160709141433 starting passing clouds green 
+20160709141501 exiting passing clouds green 
+20160709141505 starting passing clouds green 
+20160709142112 home_L_WIFI_state = 1 bothcompsoff = 3
+20160709142112 Phone at 192.168.1.197 Not seen
+20160709182709 home_L_WIFI_state = 1 bothcompsoff = 3
+20160709182709 Phone at 192.168.1.109 Not seen
+20160709182724 home_L_WIFI_state = 1 bothcompsoff = 4
+20160709182724 Phone at 192.168.1.197 Not seen
+20160709182724 No phones detected. Turning off all house lights, set lstate to 0
+20160709182735 exiting passing clouds green 
+20160709191923 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160709191926 else ftime = 1919 > sunset = 1908 
+20160710094201 home_L_WIFI_state = 1 bothcompsoff = 3
+20160710094201 Phone at 192.168.1.109 Not seen
+20160710094220 home_L_WIFI_state = 1 bothcompsoff = 4
+20160710094220 Phone at 192.168.1.197 Not seen
+20160710094220 No phones detected. Turning off all house lights, set lstate to 0
+20160710112207 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160710112209 ftime <= 1200 && ftime > 600 
+20160710114355 home_L_WIFI_state = 1 bothcompsoff = 3
+20160710114355 Phone at 192.168.1.109 Not seen
+20160710114414 home_L_WIFI_state = 1 bothcompsoff = 4
+20160710114414 Phone at 192.168.1.197 Not seen
+20160710114414 No phones detected. Turning off all house lights, set lstate to 0
+20160710184310 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160710184313 1843 >= 1830 && 1843 < 1908 sunset 
+20160710192229 else ftime = 1922 > sunset = 1908 
+20160711130710 home_L_WIFI_state = 1 bothcompsoff = 3
+20160711130710 Phone at 192.168.1.197 Not seen
+20160711130729 home_L_WIFI_state = 1 bothcompsoff = 4
+20160711130729 Phone at 192.168.1.109 Not seen
+20160711130748 home_L_WIFI_state = 1 bothcompsoff = 5
+20160711130748 Phone at 192.168.1.197 Not seen
+20160711130748 No phones detected. Turning off all house lights, set lstate to 0
+20160711133637 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160711133640 1336 < 1830 && 1336 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160711133640 starting passing clouds green 
+20160711154218 home_L_WIFI_state = 1 bothcompsoff = 3
+20160711154218 Phone at 192.168.1.197 Not seen
+20160711154237 home_L_WIFI_state = 1 bothcompsoff = 4
+20160711154237 Phone at 192.168.1.109 Not seen
+20160711154256 home_L_WIFI_state = 1 bothcompsoff = 5
+20160711154256 Phone at 192.168.1.197 Not seen
+20160711154256 No phones detected. Turning off all house lights, set lstate to 0
+20160711154303 exiting passing clouds green 
+20160711162600 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160711162602 1626 < 1830 && 1626 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160711162602 starting passing clouds green 
+20160711210230 exiting passing clouds green 
+20160712073216 home_L_WIFI_state = 1 bothcompsoff = 3
+20160712073216 Phone at 192.168.1.109 Not seen
+20160712073235 home_L_WIFI_state = 1 bothcompsoff = 4
+20160712073235 Phone at 192.168.1.197 Not seen
+20160712073235 No phones detected. Turning off all house lights, set lstate to 0
+20160712101018 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160712101021 ftime <= 1200 && ftime > 600 
+20160712103300 home_L_WIFI_state = 1 bothcompsoff = 3
+20160712103300 Phone at 192.168.1.197 Not seen
+20160712103319 home_L_WIFI_state = 1 bothcompsoff = 4
+20160712103319 Phone at 192.168.1.109 Not seen
+20160712103338 home_L_WIFI_state = 1 bothcompsoff = 5
+20160712103338 Phone at 192.168.1.197 Not seen
+20160712103338 No phones detected. Turning off all house lights, set lstate to 0
+20160712105018 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160712105021 ftime <= 1200 && ftime > 600 
+20160712163906 home_L_WIFI_state = 1 bothcompsoff = 3
+20160712163906 Phone at 192.168.1.197 Not seen
+20160712163925 home_L_WIFI_state = 1 bothcompsoff = 4
+20160712163925 Phone at 192.168.1.109 Not seen
+20160712163944 home_L_WIFI_state = 1 bothcompsoff = 5
+20160712163944 Phone at 192.168.1.197 Not seen
+20160712163944 No phones detected. Turning off all house lights, set lstate to 0
+20160712233409 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160712233412 else ftime = 2334 > sunset = 1908 
+20160713151922 1519 < 1830 && 1519 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160713151922 starting passing clouds green 
+20160713152210 exiting passing clouds green 
+20160713153411 home_L_WIFI_state = 1 bothcompsoff = 3
+20160713153411 Phone at 192.168.1.197 Not seen
+20160713153430 home_L_WIFI_state = 1 bothcompsoff = 4
+20160713153430 Phone at 192.168.1.109 Not seen
+20160713153449 home_L_WIFI_state = 1 bothcompsoff = 5
+20160713153449 Phone at 192.168.1.197 Not seen
+20160713153449 No phones detected. Turning off all house lights, set lstate to 0
+20160713153532 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160713153534 1535 < 1830 && 1535 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160713153534 starting passing clouds green 
+20160713154554 exiting passing clouds green 
+20160713154957 1549 < 1830 && 1549 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160713154957 starting passing clouds green 
+20160713184815 exiting passing clouds green 
+20160713184829 starting passing clouds green. sun will set at 
+20160713184901 exiting passing clouds green 
+20160713185444 home_L_WIFI_state = 1 bothcompsoff = 3
+20160713185444 Phone at 192.168.1.197 Not seen
+20160713185503 home_L_WIFI_state = 1 bothcompsoff = 4
+20160713185503 Phone at 192.168.1.109 Not seen
+20160713185522 home_L_WIFI_state = 1 bothcompsoff = 5
+20160713185522 Phone at 192.168.1.197 Not seen
+20160713185522 No phones detected. Turning off all house lights, set lstate to 0
+20160713213637 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160713213639 else ftime = 2136 > sunset = 1908 
+------------------------------------------------------------------------------------------
+20160713234234 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160714122645 home_L_WIFI_state = 1 bothcompsoff = 3
+20160714122645 Phone at 192.168.1.197 Not seen
+20160714122704 home_L_WIFI_state = 1 bothcompsoff = 4
+20160714122704 Phone at 192.168.1.109 Not seen
+20160714122723 home_L_WIFI_state = 1 bothcompsoff = 5
+20160714122723 Phone at 192.168.1.197 Not seen
+20160714122723 No phones detected. Turning off all house lights, set lstate to 0
+20160714123650 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160714123653 1236 < 1830 && 1236 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160714123653 starting passing clouds green. sun will set at 
+20160714161723 home_L_WIFI_state = 1 bothcompsoff = 3
+20160714161723 Phone at 192.168.1.197 Not seen
+20160714161742 home_L_WIFI_state = 1 bothcompsoff = 4
+20160714161742 Phone at 192.168.1.109 Not seen
+20160714161801 home_L_WIFI_state = 1 bothcompsoff = 5
+20160714161801 Phone at 192.168.1.197 Not seen
+20160714161801 No phones detected. Turning off all house lights, set lstate to 0
+20160714161807 exiting passing clouds green 
+20160714164218 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160714164221 1642 < 1830 && 1642 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160714164221 starting passing clouds green. sun will set at 
+20160714181510 home_L_WIFI_state = 1 bothcompsoff = 3
+20160714181510 Phone at 192.168.1.197 Not seen
+20160714181529 home_L_WIFI_state = 1 bothcompsoff = 4
+20160714181529 Phone at 192.168.1.109 Not seen
+20160714181548 home_L_WIFI_state = 1 bothcompsoff = 5
+20160714181548 Phone at 192.168.1.197 Not seen
+20160714181548 No phones detected. Turning off all house lights, set lstate to 0
+20160714181615 exiting passing clouds green 
+20160714193110 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160714193112 else ftime = 1931 > sunset = 1908 
+20160715115136 starting passing clouds green. sun will set at 
+20160715115237 exiting passing clouds green 
+20160715115338 starting passing clouds green. sun will set at 1907
+20160715115529 exiting passing clouds green 
+------------------------------------------------------------------------------------------
+20160715172221 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160715173142 home_L_WIFI_state = 1 bothcompsoff = 3
+20160715173142 Phone at 192.168.1.197 Not seen
+20160715173157 home_L_WIFI_state = 1 bothcompsoff = 4
+20160715173157 Phone at 192.168.1.109 Not seen
+20160715173216 home_L_WIFI_state = 1 bothcompsoff = 5
+20160715173216 Phone at 192.168.1.197 Not seen
+20160715173216 No phones detected. Turning off all house lights, set lstate to 0
+20160715180914 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160715180917 1809 < 1830 && 1809 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160715191554 home_L_WIFI_state = 1 bothcompsoff = 3
+20160715191554 Phone at 192.168.1.109 Not seen
+20160715191613 home_L_WIFI_state = 1 bothcompsoff = 4
+20160715191613 Phone at 192.168.1.197 Not seen
+20160715191613 No phones detected. Turning off all house lights, set lstate to 0
+20160715192206 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160715192208 else ftime = 1922 > sunset = 1907 
+20160715192648 home_L_WIFI_state = 1 bothcompsoff = 3
+20160715192648 Phone at 192.168.1.197 Not seen
+20160715192707 home_L_WIFI_state = 1 bothcompsoff = 4
+20160715192707 Phone at 192.168.1.109 Not seen
+20160715192726 home_L_WIFI_state = 1 bothcompsoff = 5
+20160715192726 Phone at 192.168.1.197 Not seen
+20160715192726 No phones detected. Turning off all house lights, set lstate to 0
+20160715192800 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160715192802 else ftime = 1928 > sunset = 1907 
+20160715193309 starting passing clouds green. sun will set at 1907
+20160715193309 exiting passing clouds green 
+20160716083729 home_L_WIFI_state = 1 bothcompsoff = 3
+20160716083729 Phone at 192.168.1.197 Not seen
+20160716083748 home_L_WIFI_state = 1 bothcompsoff = 4
+20160716083748 Phone at 192.168.1.109 Not seen
+20160716083807 home_L_WIFI_state = 1 bothcompsoff = 5
+20160716083807 Phone at 192.168.1.197 Not seen
+20160716083807 No phones detected. Turning off all house lights, set lstate to 0
+20160716084736 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160716084738 ftime <= 1200 && ftime > 600 
+20160716110939 ftime <= 1200 && ftime > 600 
+20160716125733 1257 < 1830 && 1257 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160716125852 1258 < 1830 && 1258 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160716125857 starting passing clouds green. sun will set at 1907
+20160716125859 starting passing clouds green. sun will set at 1907
+20160716125906 exiting passing clouds green 
+20160716180848 home_L_WIFI_state = 1 bothcompsoff = 3
+20160716180848 Phone at 192.168.1.109 Not seen
+20160716180907 home_L_WIFI_state = 1 bothcompsoff = 4
+20160716180907 Phone at 192.168.1.197 Not seen
+20160716180907 No phones detected. Turning off all house lights, set lstate to 0
+20160716180928 exiting passing clouds green 
+20160716205549 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160716205551 else ftime = 2055 > sunset = 1907 
+20160717085848 home_L_WIFI_state = 1 bothcompsoff = 3
+20160717085848 Phone at 192.168.1.109 Not seen
+20160717085907 home_L_WIFI_state = 1 bothcompsoff = 4
+20160717085907 Phone at 192.168.1.197 Not seen
+20160717085907 No phones detected. Turning off all house lights, set lstate to 0
+20160717141614 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160717141617 1416 < 1830 && 1416 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160717145727 starting passing clouds green. sun will set at 1907
+20160717150115 exiting passing clouds green 
+20160717150130 starting passing clouds green. sun will set at 1907
+20160717214931 exiting passing clouds green 
+20160717215111 starting passing clouds green. sun will set at 1907
+20160717215116 ftime 2151 > sunset 1907
+20160717215116 exiting passing clouds green 
+20160718103021 home_L_WIFI_state = 1 bothcompsoff = 3
+20160718103021 Phone at 192.168.1.197 Not seen
+20160718103041 home_L_WIFI_state = 1 bothcompsoff = 4
+20160718103100 home_L_WIFI_state = 1 bothcompsoff = 5
+20160718103100 Phone at 192.168.1.197 Not seen
+20160718103100 No phones detected. Turning off all house lights, set lstate to 0
+20160718104543 ftime <= 1200 && ftime > 600 
+20160718110735 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160718110737 ftime <= 1200 && ftime > 600 
+20160718141053 1410 < 1830 && 1410 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160718141055 starting passing clouds green. sun will set at 1907
+20160718145520 1455 < 1830 && 1455 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160718145522 starting passing clouds green. sun will set at 1907
+20160718145533 exiting passing clouds green 
+20160718151720 home_L_WIFI_state = 1 bothcompsoff = 3
+20160718151720 Phone at 192.168.1.197 Not seen
+20160718151739 home_L_WIFI_state = 1 bothcompsoff = 4
+20160718151739 Phone at 192.168.1.109 Not seen
+20160718151758 home_L_WIFI_state = 1 bothcompsoff = 5
+20160718151758 Phone at 192.168.1.197 Not seen
+20160718151758 No phones detected. Turning off all house lights, set lstate to 0
+20160718151807 exiting passing clouds green 
+20160718152550 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160718152552 1525 < 1830 && 1525 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160718152554 starting passing clouds green. sun will set at 1907
+20160718160503 home_L_WIFI_state = 1 bothcompsoff = 3
+20160718160503 Phone at 192.168.1.197 Not seen
+20160718160522 home_L_WIFI_state = 1 bothcompsoff = 4
+20160718160522 Phone at 192.168.1.109 Not seen
+20160718160541 home_L_WIFI_state = 1 bothcompsoff = 5
+20160718160541 Phone at 192.168.1.197 Not seen
+20160718160541 No phones detected. Turning off all house lights, set lstate to 0
+20160718160616 exiting passing clouds green 
+20160718160803 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160718160805 1608 < 1830 && 1608 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160718160839 starting passing clouds green. sun will set at 1907
+------------------------------------------------------------------------------------------
+20160718165024 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160718165054 home_L_WIFI_state = 1 bothcompsoff = 3
+20160718165054 Phone at 192.168.1.109 Not seen
+20160718165109 home_L_WIFI_state = 1 bothcompsoff = 4
+20160718165109 Phone at 192.168.1.197 Not seen
+20160718165109 No phones detected. Turning off all house lights, set lstate to 0
+20160718170822 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160718170825 1708 < 1830 && 1708 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160718170826 starting passing clouds green. sun will set at 1907
+20160718175703 home_L_WIFI_state = 1 bothcompsoff = 3
+20160718175703 Phone at 192.168.1.197 Not seen
+20160718175722 home_L_WIFI_state = 1 bothcompsoff = 4
+20160718175722 Phone at 192.168.1.109 Not seen
+20160718175741 home_L_WIFI_state = 1 bothcompsoff = 5
+20160718175741 Phone at 192.168.1.197 Not seen
+20160718175741 No phones detected. Turning off all house lights, set lstate to 0
+20160718175747 exiting passing clouds green 
+20160718180703 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160718180705 1807 < 1830 && 1807 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160718180707 starting passing clouds green. sun will set at 1907
+20160718190824 ftime 1908 > sunset 1907
+20160718190825 exiting passing clouds green 
+20160718191448 home_L_WIFI_state = 1 bothcompsoff = 3
+20160718191448 Phone at 192.168.1.109 Not seen
+20160718191507 home_L_WIFI_state = 1 bothcompsoff = 4
+20160718191507 Phone at 192.168.1.197 Not seen
+20160718191507 No phones detected. Turning off all house lights, set lstate to 0
+20160718191559 Device at 192.168.1.197 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160718191602 else ftime = 1916 > sunset = 1907 
+------------------------------------------------------------------------------------------
+20160718193624 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160719074749 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+------------------------------------------------------------------------------------------
+20160719081646 Now starting Hue Wifi Home Scan v1.10_scheduler.ahk! mod 7/9/16 02302
+Running on YTHP from path "C:\Program Files\WinHue 3\whc.exe"
+20160719104020 home_L_WIFI_state = 1 bothcompsoff = 3
+20160719104020 Phone at 192.168.1.197 Not seen
+20160719104036 home_L_WIFI_state = 1 bothcompsoff = 4
+20160719104036 Phone at 192.168.1.109 Not seen
+20160719104055 home_L_WIFI_state = 1 bothcompsoff = 5
+20160719104055 Phone at 192.168.1.197 Not seen
+20160719104111 home_L_WIFI_state = 1 bothcompsoff = 6
+20160719104111 Phone at 192.168.1.109 Not seen
+20160719104130 home_L_WIFI_state = 1 bothcompsoff = 7
+20160719104130 Phone at 192.168.1.197 Not seen
+20160719104149 home_L_WIFI_state = 1 bothcompsoff = 8
+20160719104149 Phone at 192.168.1.109 Not seen
+20160719104208 home_L_WIFI_state = 1 bothcompsoff = 9
+20160719104208 Phone at 192.168.1.197 Not seen
+20160719104208 No phones detected. Turning off all house lights, set lstate to 0
+20160719104243 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160719104246 ftime <= 1200 && ftime > 600 
+20160719114550 home_L_WIFI_state = 1 bothcompsoff = 3
+20160719114550 Phone at 192.168.1.197 Not seen
+20160719114609 home_L_WIFI_state = 1 bothcompsoff = 4
+20160719114609 Phone at 192.168.1.109 Not seen
+20160719114628 home_L_WIFI_state = 1 bothcompsoff = 5
+20160719114628 Phone at 192.168.1.197 Not seen
+20160719114647 home_L_WIFI_state = 1 bothcompsoff = 6
+20160719114647 Phone at 192.168.1.109 Not seen
+20160719114706 home_L_WIFI_state = 1 bothcompsoff = 7
+20160719114706 Phone at 192.168.1.197 Not seen
+20160719114725 home_L_WIFI_state = 1 bothcompsoff = 8
+20160719114725 Phone at 192.168.1.109 Not seen
+20160719114744 home_L_WIFI_state = 1 bothcompsoff = 9
+20160719114744 Phone at 192.168.1.197 Not seen
+20160719114744 No phones detected. Turning off all house lights, set lstate to 0
+20160719123401 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
+Turning on house lights according to schedule!
+20160719123404 1234 < 1830 && 1234 > 1200 
+Started Passing Clouds Green on light 5 with error 0 
+20160719123405 starting passing clouds green. sun will set at 1906
