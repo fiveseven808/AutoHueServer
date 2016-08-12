@@ -398,3 +398,6 @@ Started Passing Clouds Green on light 5 with error 0
 20160719205446 Device at 192.168.1.109 detected! Lights were turned off via Wifi before so... 
 Turning on house lights according to schedule!
 20160719205448 else ftime = 2054 > sunset = 1906 
+20160722100454 ftime <= 1200 && ftime > 600 
+20160722100536 ftime <= 1200 && ftime > 600 
+20160722210322 else ftime = 2103 > sunset = 1905 
