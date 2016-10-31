@@ -37,4 +37,9 @@ big button to stop any animations
 what lights are scheduled to turn on or off coming up (based on this schedule)
 	i.e. if i come home now, what lights should turn on
 	big button to run that task now
-	
+-------------------
+10/02/16
+okay so now the main lights system... after all of the devices go away, it waits an hour before shutting things off. doesn't check for devices in the mean time.
+
+what i want it to do is when it detects no phone and the lights are on, it'll go and flash (or double flash) all the house lights? (maybe not all). once every 5-10 mintues or so i guess? 
+or maybe just once? it'll basically do this for 10-5 min to 30 min to an hour or so. during that 30 min or so it'll constantly check for the devices again. if the devices show up, it'll do a "confirm" double flash (or single flash?). if no device shows up i.e. no one is home, the lights will just power down as usual. 

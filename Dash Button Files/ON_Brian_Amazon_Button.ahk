@@ -24,7 +24,7 @@ eveningtime := sunset - 100
 		;run %WHClocation% -g:1 -on:true -bri:1					;Turn on Hallway light to 75%	
 		run brian_but_logic.ahk				
 		}	
-	If (ftime >= 630 && ftime < 800)														;If we come home before 6am
+	If (ftime >= 600 && ftime < 800)														;If we come home before 6am
 		{
 		FileAppend,%A_Now% 630 800 `n, %DaemonLog%
 		runwait %WHClocation% -g:0 -on:true -bri:255					;Turn on everything to 100%	

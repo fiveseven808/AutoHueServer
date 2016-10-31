@@ -15,6 +15,12 @@ inilocation = Config.ini
 #Include Add_INI.ahk			;Pull in other variables. 
 
 /*
+v1.12 
+	Added an hour delay after devices not seen before turning off lights.... maybe it'll make mika less upset 
+v1.11 
+	*trying new things. gonna put a pause signal to pause the amazon buttons - read dash folder location from ini and if dash exists in ini	
+	*because the thing will pause dash buttons, will shorten the time between pings when out of the house. this will turn the lights on quicker when not at home. or if the lights accidentally go off, they'll turn on quicker 
+	*NONE OF THIS IS IMPLEMENTE YET 
 v1.10
 	moved some routines around. 
 	7/9 just changed start.bat to open this one instead of 1.9! 
@@ -65,7 +71,7 @@ If 0 > 0
 	;Computername2 = %3%
 	compnumbers = %1%
 	FileAppend,------------------------------------------------------------------------------------------`n, %DaemonLog%
-	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 7/24/16 1927 `nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
+	FileAppend,%A_Now% Now starting %A_ScriptName%! mod 7/9/16 02302`nRunning on %A_ComputerName% from path %WHClocation%`n, %DaemonLog%
 	Goto Checkcomp
 	}
 else
@@ -82,16 +88,21 @@ Checkcomp:											;This is the actual main loop
 	;msgbox, starting loop
 	gosub DetermineComps
 	;msgbox, breakout!								;Both phones are away from home otherwise it wouldn't have broken out of the loop
+	
 	If Home_L_WIFI_State = 1
+		
 		{
-		FileAppend,%A_Now% No phones detected. Turning off all house lights`, set lstate to 0`n, %DaemonLog%
+		FileAppend,%A_Now% No phones detected. Waiting an hour before turning off all house lights`, set lstate to 0`n, %DaemonLog%
+		;flash warning lights? then give an hour before shutting off lights? 
+		sleep 3600000 ; sleep for 1 hour before turning lights off 
+		FileAppend,%A_Now% Hour is up ALL LIGHTS except bathroom are going down!`, set lstate to 0`n, %DaemonLog%
 		Home_L_WIFI_State = 0						;Let the program know that wifi is keeping the lights off. 
 		}
 	runwait, %OFF_file%,,Hide UseErrorLevel			;Turn off the house lights
 	if ErrorLevel = ERROR
 		FileAppend,%A_Now% %OFF_file% could not be run! `n, %DaemonLog%
 	;FileAppend,%A_Now% broke out of loop`,  shut off the lights and now sleeping for 1 min  `n, %DaemonLog%
-	sleep 30000 									;Since lights were turned off by wifi Check again every 0.5 minutes 					
+	;sleep 30000 									;Since lights were turned off by wifi Check again every 0.5 minutes 					
 goto Checkcomp
 ;--------------------------------------------------------------------------------------
 
@@ -135,7 +146,7 @@ if compnumbers = 2
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 1)
 			sleep %detectedtimeout%								;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
-		else If (bothcompsoff >= 8)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
+		else If (bothcompsoff >= 4)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
 	}
@@ -157,7 +168,7 @@ if compnumbers = 3
 		gosub CheckCompison							;Checking to see if 2nd phone is home
 		if (bothcompsoff <= 2)
 			sleep %detectedtimeout%								;Since a phone was detected and an action was performed start the loop again after 1 minutes. dont wanna kill phone with pings 
-		else If (bothcompsoff >= 12)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
+		else If (bothcompsoff >= 6)					;Break out of this ONLY when a phone hasn't been seen 4x i.e. it's still looping if it sees a phone
 			break									
 		}
 	}

@@ -28,7 +28,10 @@ StringLen, numbah, sunset
 	If (ftime <= 1200 && ftime > 600)								;If we come home before noon but after 6am 
 		{
 		FileAppend,%A_Now% ftime <= 1200 && ftime > 600 `n, %DaemonLog%
-		run %WHClocation% -l:5 -on:true -ct:155 -bri:254		 	;6pm Energize
+		;run %WHClocation% -l:5 -on:true -ct:155 -bri:254		 	;6pm Energize
+		passingclouds = %A_ScriptDir%\Scene_Saver\Passing_Clouds\Passing_clouds_Green.ahk l:5
+		run,%passingclouds%, , UseErrorLevel
+		fileappend, Started Passing Clouds Green on light 5 with error %ErrorLevel% `n, %DaemonLog%
 		}
 	If (ftime < 1830 && ftime > 1200)								;If we come home before 6pm
 		{
