@@ -11,7 +11,7 @@ sunset := sunset - 10												;Make the night mode turn on 10 min before actu
 ;WHClocation = "C:\Program Files\WinHue 3\whc.exe"
 ;msgbox, whclocation = %whclocation%
 
-
+runwait G-0_Off.exe
 
 StringLen, numbah, sunset
 	If (ftime <= 600)														;If we come home before 6am
